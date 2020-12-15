@@ -1,0 +1,6 @@
+{
+	"name": "Worker",
+	"pluralName": "Workers",
+	"layingTime": 60,
+	"foodCost": 5
+}
