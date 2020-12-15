@@ -1,6 +1,6 @@
 package main;
 
-import model.Unit;
+import model.Player;
 
 public class Main {
 
@@ -9,9 +9,7 @@ public class Main {
 
         Config.loadConfig();
 
-        System.out.println(Config.worker);
-        for (Unit unit : Config.units) {
-            System.out.println(unit);
-        }
+        Display.displayBaseUnitTable();
+        Display.displayPlayerUnitTable(new Player("FeuFeve"));
     }
 }
