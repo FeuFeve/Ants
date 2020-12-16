@@ -18,6 +18,12 @@ public class Unit extends GameObject {
     public int foodCost;
 
 
+    public Unit() {}
+
+    public Unit(Unit unit) {
+
+    }
+
     public List<String> getBaseStatsList() {
         return Arrays.asList(name,
                 String.valueOf(hp),
