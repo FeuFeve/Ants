@@ -10,11 +10,10 @@ public class Army extends ArrayList<Pair<Unit, Integer>> {
 
     @Override
     public String toString() {
-        String toReturn = "Army {\n\tPlayer: " + player.name + "\n";
+        String toReturn = player.name + "'s army:";
         for (Pair<Unit, Integer> pair : this) {
-            toReturn += "\t" + pair.getValue() + " " + pair.getKey().pluralName + "\n";
+            toReturn += "\n\t" + pair.getValue() + " " + pair.getKey().pluralName;
         }
-        toReturn += "}";
         return toReturn;
     }
 }
