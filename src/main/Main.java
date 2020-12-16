@@ -1,10 +1,7 @@
 package main;
 
-import javafx.util.Pair;
 import model.Army;
 import model.Player;
-import model.Unit;
-import utilities.StringFormatter;
 
 public class Main {
 
@@ -14,31 +11,24 @@ public class Main {
         Config.loadConfig();
 
         Player FeuFeve = new Player("FeuFeve");
-        Army fArmy = new Army();
-        fArmy.player = FeuFeve;
-        for (Unit unit : Config.units) {
-            if (unit.name.equals("Young soldier")) {
-                fArmy.add(new Pair<>(unit, 100));
-            }
-        }
-        System.out.println(fArmy);
+        FeuFeve.debugModifyStats(26, 25, 31, 29);
+        Army fArmy = new Army(FeuFeve);
+        fArmy.add("Young dwarf", 1_500_000_000);
+        fArmy.add("Young soldier", 500_000_000);
+        fArmy.add("Tank", 125_000_000);
+        fArmy.add("Killer", 66_666_666);
+//        System.out.println(fArmy);
 
         Player OxyMore = new Player("OxyMore");
-        Army oArmy = new Army();
-        oArmy.player = OxyMore;
-        for (Unit unit : Config.units) {
-            if (unit.name.equals("Tank")) {
-                oArmy.add(new Pair<>(unit, 300));
-            }
-        }
-        System.out.println(oArmy);
+        Army oArmy = new Army(OxyMore);
+        OxyMore.debugModifyStats(24, 27, 28, 32);
+        oArmy.add("Young dwarf", 2_500_000_000L);
+        oArmy.add("Young soldier", 123_456_789);
+        oArmy.add("Tank", 600_000_000);
+        oArmy.add("Killer", 100_000_000);
+//        System.out.println(oArmy);
 
-        fArmy.attackInHf(oArmy);
-        fArmy.attackInDome(oArmy);
-        fArmy.attackInNest(oArmy);
-
-        String formattedResult = StringFormatter.firstLeftSecondRightAlign(24, "HP bonus (HF):", "100%", true);
-        System.out.println("|" + formattedResult + "|");
+        Army.attackIn("nest", fArmy, oArmy);
 
 //        Display.displayBaseUnitTable();
 //        Display.displayPlayerUnitTable(FeuFeve);
