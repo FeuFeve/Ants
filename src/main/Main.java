@@ -5,8 +5,6 @@ import model.Army;
 import model.Player;
 import model.Unit;
 
-import javax.swing.*;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -26,16 +24,5 @@ public class Main {
 
         Display.displayBaseUnitTable();
         Display.displayPlayerUnitTable(FeuFeve);
-
-        final String password, message = "Enter password";
-        if( System.console() == null ) {
-            final JPasswordField pf = new JPasswordField();
-            password = JOptionPane.showConfirmDialog( null, pf, message, JOptionPane.OK_CANCEL_OPTION,
-                    JOptionPane.QUESTION_MESSAGE ) == JOptionPane.OK_OPTION ? new String( pf.getPassword() ) : "";
-        }
-        else
-            password = new String( System.console().readPassword( "%s> ", message ) );
-
-        System.out.println("THE PASSWORD WAS: " + password);
     }
 }

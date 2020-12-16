@@ -36,7 +36,7 @@ public class Unit extends GameObject {
 
     public List<String> getBonusStatsList(Player player) {
         return Arrays.asList(name,
-                String.valueOf(hp * player.hfHpMultiplier),
+                String.valueOf(hp * player.hpMultiplier),
                 String.valueOf(attack * player.attackMultiplier),
                 String.valueOf(defense * player.defenseMultiplier),
                 getBonusLayingTime(player) + "s",

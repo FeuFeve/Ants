@@ -2,7 +2,7 @@ package model;
 
 public class Player extends GameObject {
 
-    double hfHpMultiplier = 1;
+    double hpMultiplier = 1;
     double domeHpMultiplier = 1;
     double nestHpMultiplier = 1;
     double attackMultiplier = 1;
