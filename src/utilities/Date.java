@@ -21,10 +21,15 @@ public class Date {
 
     public static String getRealDate() {
         update();
+        return String.format("%d-%02d-%02d", year, month, day);
+    }
+
+    public static String getRealDateAndTime() {
+        update();
         return String.format("%d-%02d-%02d %02d:%02d:%02d", year, month, day, hour, minute, second);
     }
 
-    public static String getRealDateMs() {
+    public static String getRealDateAndTimeMs() {
         update();
         return String.format("%d-%02d-%02d %02d:%02d:%02d.%03d", year, month, day, hour, minute, second, millis);
     }
