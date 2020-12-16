@@ -2,15 +2,15 @@ package model;
 
 public class Player extends GameObject {
 
-    double hpMultiplier = 1;
-    double domeHpMultiplier = 1;
-    double nestHpMultiplier = 1;
-    double attackMultiplier = 1;
-    double defenseMultiplier = 1;
-    double xpMultiplier = 1;
+    public double attackMultiplier = 1;
+    public double defenseMultiplier = 1;
+    public double hpMultiplier = 1;
+    public double domeHpMultiplier = 1;
+    public double nestHpMultiplier = 1;
+    public double xpMultiplier = 1;
 
-    int layingSpeedLevel;
-    double layingSpeedMultiplier;
+    public int layingSpeedLevel;
+    public double layingSpeedMultiplier;
 
 
     public Player() {

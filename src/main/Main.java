@@ -4,6 +4,7 @@ import javafx.util.Pair;
 import model.Army;
 import model.Player;
 import model.Unit;
+import utilities.StringFormatter;
 
 public class Main {
 
@@ -22,7 +23,24 @@ public class Main {
         }
         System.out.println(fArmy);
 
-        Display.displayBaseUnitTable();
-        Display.displayPlayerUnitTable(FeuFeve);
+        Player OxyMore = new Player("OxyMore");
+        Army oArmy = new Army();
+        oArmy.player = OxyMore;
+        for (Unit unit : Config.units) {
+            if (unit.name.equals("Tank")) {
+                oArmy.add(new Pair<>(unit, 300));
+            }
+        }
+        System.out.println(oArmy);
+
+        fArmy.attackInHf(oArmy);
+        fArmy.attackInDome(oArmy);
+        fArmy.attackInNest(oArmy);
+
+        String formattedResult = StringFormatter.firstLeftSecondRightAlign(24, "HP bonus (HF):", "100%", true);
+        System.out.println("|" + formattedResult + "|");
+
+//        Display.displayBaseUnitTable();
+//        Display.displayPlayerUnitTable(FeuFeve);
     }
 }

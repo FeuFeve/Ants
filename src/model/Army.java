@@ -3,8 +3,14 @@ package model;
 import javafx.util.Pair;
 import main.Config;
 import utilities.Date;
+import utilities.StringFormatter;
+import wagu.Block;
+import wagu.Board;
+import wagu.Table;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Army extends ArrayList<Pair<Unit, Integer>> {
 
@@ -73,16 +79,75 @@ public class Army extends ArrayList<Pair<Unit, Integer>> {
     }
 
     public void attackInHf(Army enemyArmy) {
-        Date.getRealDate();
+        System.out.println(getAttackerDefenderStatsTable("hunting field", player, enemyArmy.player));
+    }
+
+    public void attackInDome(Army enemyArmy) {
+        System.out.println(getAttackerDefenderStatsTable("dome", player, enemyArmy.player));
+    }
+
+    public void attackInNest(Army enemyArmy) {
+        System.out.println(getAttackerDefenderStatsTable("nest", player, enemyArmy.player));
+    }
+
+    private static String getAttackerDefenderStatsTable(String location, Player attacker, Player defender) {
+        String header = Date.getRealDate() + "\n"
+                + attacker.name + " attacks " + defender.name + "'s " + location + ".\n\n";
+
+        String defenderHpText = ""; String defenderHpPercentage = "";
+        switch (location) {
+            case "hunting field":
+                defenderHpText = "HP bonus (HF):";
+                defenderHpPercentage = (int) Math.round(defender.hpMultiplier * 100) + "%";
+                break;
+            case "dome":
+                defenderHpText = "HP bonus (Dome):";
+                defenderHpPercentage = (int) Math.round((defender.hpMultiplier + defender.domeHpMultiplier - 1) * 100) + "%";
+                break;
+            case "nest":
+                defenderHpText = "HP bonus (Nest):";
+                defenderHpPercentage = (int) Math.round((defender.hpMultiplier + defender.nestHpMultiplier - 1) * 100) + "%";
+                break;
+        }
+
+        List<String> headersList = Arrays.asList("ATTACKER", "DEFENDER");
+        List<List<String>> rowsList = Arrays.asList(
+                Arrays.asList(attacker.name, defender.name),
+                Arrays.asList(
+                        StringFormatter.firstLeftSecondRightAlign(28, "Attack bonus:", (int) Math.round(attacker.attackMultiplier * 100) + "%", true),
+                        StringFormatter.firstLeftSecondRightAlign(28, "Defense bonus:", (int) Math.round(defender.defenseMultiplier * 100) + "%", true)
+                ),
+                Arrays.asList(
+                        StringFormatter.firstLeftSecondRightAlign(28, "HP bonus (HF):", (int) Math.round(attacker.hpMultiplier * 100) + "%", true),
+                        StringFormatter.firstLeftSecondRightAlign(28, defenderHpText, defenderHpPercentage, true)
+                )
+        );
+
+        Board board = new Board(63);
+        Table table = new Table(board, 63, headersList, rowsList);
+        List<Integer> colAlignList = Arrays.asList(Block.DATA_CENTER, Block.DATA_CENTER);
+        table.setColAlignsList(colAlignList);
+        Block tableBlock = table.tableToBlocks();
+        board.setInitialBlock(tableBlock);
+        board.build();
+
+        header += board.getPreview();
+        return header;
     }
 
     @Override
     public String toString() {
-        Pair<Unit, Integer> unit = get(0);
-        String toReturn = unit.getValue() + " " + unit.getKey().name;
-        for (int i = 1; i < size(); i++) {
-            unit = get(i);
-            toReturn += ", " + unit.getValue() + " " + unit.getKey().name;
+        String toReturn = "";
+        boolean first = true;
+        for (Pair<Unit, Integer> unit : this) {
+            if (unit.getValue() > 0) {
+                if (first) {
+                    first = false;
+                    toReturn += unit.getValue() + " " + unit.getKey().name;
+                } else {
+                    toReturn += ", " + unit.getValue() + " " + unit.getKey().name;
+                }
+            }
         }
         return toReturn + ".";
     }
