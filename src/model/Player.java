@@ -23,10 +23,10 @@ public class Player extends GameObject {
     }
 
     public void debugModifyStats(int weapons, int shields, int dome, int nest) {
-        attackMultiplier = defenseMultiplier = 1 + weapons * 0.1;
-        hpMultiplier = 1 + shields * 0.1;
-        domeHpMultiplier = 1.1 + 0.05 * dome;
-        nestHpMultiplier = 1.3 + 0.15 * nest;
+        attackMultiplier = defenseMultiplier = Math.round((1 + weapons * 0.1) * 100) / 100.0;
+        hpMultiplier = Math.round((1 + shields * 0.1) * 100) / 100.0;
+        domeHpMultiplier = Math.round((1 + 0.05 * dome) * 100) / 100.0;
+        nestHpMultiplier = Math.round((1.3 + 0.15 * nest) * 100) / 100.0;
     }
 
     public void recalculateLayingSpeedMultiplier() {
