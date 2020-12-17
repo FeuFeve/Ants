@@ -11,18 +11,18 @@ public class Main {
         Config.loadConfig();
 
         Player FeuFeve = new Player("FeuFeve");
-        FeuFeve.debugModifyStats(24, 24, 0, 0);
+        FeuFeve.debugModifyStats(0, 0, 0, 0);
         Army fArmy = new Army(FeuFeve);
-        fArmy.add("Young dwarf", 100_000_000);
+        fArmy.add("Young dwarf", 186_000_000);
 //        System.out.println(fArmy);
 
         Player OxyMore = new Player("OxyMore");
         Army oArmy = new Army(OxyMore);
-        OxyMore.debugModifyStats(24, 24, 0, 0);
+        OxyMore.debugModifyStats(0, 0, 0, 0);
         oArmy.add("Young dwarf", 35_000_000);
 //        System.out.println(oArmy);
 
-        Army.attackIn("hunting field", fArmy, oArmy);
+        Army.attackIn("nest", fArmy, oArmy);
 
 //        Display.displayBaseUnitTable();
 //        Display.displayPlayerUnitTable(FeuFeve);

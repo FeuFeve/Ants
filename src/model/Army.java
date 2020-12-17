@@ -107,7 +107,7 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
             // Stats before the attacker/defender turns
             double defenseDamages = -1;
             if (firstTurn) {
-                defenseDamages = defendingArmy.defense * getOSReplicaFactor(attackingArmy.attack, getDefenderHp(location, defendingArmy));
+                defenseDamages = defendingArmy.defense * getOSReplicaFactor(attackingArmy.attack, defendingArmy.hfHp / defendingArmy.player.hpMultiplier);
                 firstTurn = false;
             }
             else {
