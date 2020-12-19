@@ -17,12 +17,11 @@ public class Unit extends GameObject {
     public int layingTime;
     public int foodCost;
 
+    public String xpInto;
 
-    public Unit() {}
+    // Hidden stats
+    public int xpValue;
 
-    public Unit(Unit unit) {
-
-    }
 
     public List<String> getBaseStatsList() {
         return Arrays.asList(name,

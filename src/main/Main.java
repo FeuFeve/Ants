@@ -3,9 +3,6 @@ package main;
 import model.Army;
 import model.Player;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -13,45 +10,47 @@ public class Main {
 
         Config.loadConfig();
 
-        double number = 2.6705882366474454281495744954976; // JS --> JSN
-//        double number = 2.8281938459112867071133022141185; // TK --> JS
-//        double number = 0.35358255453596412656400032412321; // JS --> Tk
-//        double number = 7.5529414113227742329879602799296; // Tk --> JSN
-//        double number = 0.70627062858372669676889863198172; // Tk --> Tu
-//        double number = 1.4158878510855441065159365739173; // Tu --> Tk
-        List<Integer> listOfI = new ArrayList<>();
-        for (int i = 1; i <= 100_000; i++) {
-            double multiple = number * i;
-            double precision = 0.01;
-            double modulus = multiple % 1;
-            if (modulus < (precision / 10) || modulus > (1 - precision / 10)) {
-                boolean multipleAlreadyInList = false;
-                for (int j : listOfI) {
-                    if (i % j == 0) {
-                        multipleAlreadyInList = true;
-                        break;
-                    }
-                }
-                if (!multipleAlreadyInList) {
-                    listOfI.add(i);
-                    System.out.println("i=" + i + ", " + multiple);
-                }
-            }
-        }
+        Player FeuFeve = new Player("FeuFeve");
+        FeuFeve.debugModifyStats(23, 21, 999, 777, 13);
+        Army fArmy = new Army(FeuFeve);
+        fArmy.add("Young dwarf", 1_000_000_000);
+        fArmy.add("Dwarf", 60_000_000);
+        fArmy.add("Young soldier", 500_000_000);
+        fArmy.add("Soldier", 100_000_000);
+        fArmy.add("Doorkeeper", 10_000_000);
+        fArmy.add("Top soldier", 100_000_000);
+        fArmy.add("Tank", 300_000_000);
+        fArmy.add("Top tank", 350_000_000);
+        fArmy.add("Killer", 25_000_000);
+        fArmy.add("Top killer", 50_000_000);
+//        System.out.println(fArmy);
 
-//        Player FeuFeve = new Player("FeuFeve");
-//        FeuFeve.debugModifyStats(0, 0, 0, 0);
-//        Army fArmy = new Army(FeuFeve);
-//        fArmy.add("Young dwarf", 186_000_000);
-////        System.out.println(fArmy);
-//
-//        Player OxyMore = new Player("OxyMore");
-//        Army oArmy = new Army(OxyMore);
-//        OxyMore.debugModifyStats(0, 0, 0, 0);
-//        oArmy.add("Young dwarf", 35_000_000);
-////        System.out.println(oArmy);
-//
-//        Army.attackIn("nest", fArmy, oArmy);
+        Player OxyMore = new Player("OxyMore");
+        Army oArmy = new Army(OxyMore);
+        OxyMore.debugModifyStats(19, 24, 666, 27, 123);
+        /*
+        800 000 000 Jeunes Soldates Naines,
+        400 000 000 Soldates Naines
+        30 000 000 Naines d’Elites
+        20 000 000 Concierges
+        15 000 000 Concierges d’élites
+        100 000 000 Artilleuses
+        150 000 000 Artilleuses d’élites
+        50 000 000 Tanks d’élites
+        125 000 000 Tueuses d’élites
+        */
+        oArmy.add("Young dwarf", 800_000_000);
+        oArmy.add("Dwarf", 400_000_000);
+        oArmy.add("Top dwarf", 30_000_000);
+        oArmy.add("Doorkeeper", 20_000_000);
+        oArmy.add("Top doorkeeper", 15_000_000);
+        oArmy.add("Fire ant", 100_000_000);
+        oArmy.add("Top fire ant", 150_000_000);
+        oArmy.add("Top tank", 50_000_000);
+        oArmy.add("Top killer", 125_000_000);
+//        System.out.println(oArmy);
+
+        Army.attackIn("nest", fArmy, oArmy);
 
 //        Display.displayBaseUnitTable();
 //        Display.displayPlayerUnitTable(FeuFeve);

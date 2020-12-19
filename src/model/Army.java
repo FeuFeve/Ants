@@ -1,5 +1,6 @@
 package model;
 
+import game.XpSystem;
 import javafx.util.Pair;
 import main.Config;
 import utilities.Date;
@@ -24,10 +25,44 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
     public double nestHp;
 
 
+    public Army() {
+        for (Unit unit : Config.units) {
+            add(unit);
+        }
+    }
+
     public Army(Player player) {
         this.player = player;
         for (Unit unit : Config.units) {
             add(unit);
+        }
+    }
+
+    public Pair<Unit, Long> get(String unitName) {
+        for (Pair<Unit, Long> pair : this) {
+            if (pair.getKey().name.equals(unitName)) {
+                return pair;
+            }
+        }
+        return null;
+    }
+
+    public Unit getUnit(String unitName) {
+        for (Pair<Unit, Long> pair : this) {
+            if (pair.getKey().name.equals(unitName)) {
+                return pair.getKey();
+            }
+        }
+        return null;
+    }
+
+    public void set(String unitName, Pair<Unit, Long> element) {
+        for (int index = 0; index < size(); index++) {
+            Pair<Unit, Long> pair = get(index);
+            if (pair.getKey().name.equals(unitName)) {
+                set(index, element);
+                return;
+            }
         }
     }
 
@@ -54,21 +89,25 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
     }
 
     private void addStats(Unit unit, long amount) {
-        totalAmount += amount;
-        attack += (player.attackMultiplier * unit.attack * amount);
-        defense += (player.defenseMultiplier * unit.defense * amount);
-        hfHp += (player.hpMultiplier * unit.hp * amount);
-        domeHp += ((player.hpMultiplier + player.domeHpMultiplier - 1) * unit.hp * amount);
-        nestHp += ((player.hpMultiplier + player.nestHpMultiplier - 1) * unit.hp * amount);
+        if (player != null) {
+            totalAmount += amount;
+            attack += (player.attackMultiplier * unit.attack * amount);
+            defense += (player.defenseMultiplier * unit.defense * amount);
+            hfHp += (player.hpMultiplier * unit.hp * amount);
+            domeHp += ((player.hpMultiplier + player.domeHpMultiplier - 1) * unit.hp * amount);
+            nestHp += ((player.hpMultiplier + player.nestHpMultiplier - 1) * unit.hp * amount);
+        }
     }
 
     private void removeStats(Unit unit, long amount) {
-        totalAmount -= amount;
-        attack -= (player.attackMultiplier * unit.attack * amount);
-        defense -= (player.defenseMultiplier * unit.defense * amount);
-        hfHp -= (player.hpMultiplier * unit.hp * amount);
-        domeHp -= ((player.hpMultiplier + player.domeHpMultiplier - 1) * unit.hp * amount);
-        nestHp -= ((player.hpMultiplier + player.nestHpMultiplier - 1) * unit.hp * amount);
+        if (player != null) {
+            totalAmount -= amount;
+            attack -= (player.attackMultiplier * unit.attack * amount);
+            defense -= (player.defenseMultiplier * unit.defense * amount);
+            hfHp -= (player.hpMultiplier * unit.hp * amount);
+            domeHp -= ((player.hpMultiplier + player.domeHpMultiplier - 1) * unit.hp * amount);
+            nestHp -= ((player.hpMultiplier + player.nestHpMultiplier - 1) * unit.hp * amount);
+        }
     }
 
     private void recalculateAllStats() {
@@ -93,6 +132,10 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
     }
 
     public static void attackIn(String location, Army attackingArmy, Army defendingArmy) {
+
+        long attackingArmyXpValue = XpSystem.calculateArmyXpValue(attackingArmy);
+        long defendingArmyXpValue = XpSystem.calculateArmyXpValue(defendingArmy);
+
         String header = getAttackerDefenderStatsTable(location, attackingArmy.player, defendingArmy.player);
 
         StringBuilder report = new StringBuilder("\nAttacking troops: " + attackingArmy + "\n"
@@ -107,7 +150,8 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
             // Stats before the attacker/defender turns
             double defenseDamages = -1;
             if (firstTurn) {
-                defenseDamages = defendingArmy.defense * getOSReplicaFactor(attackingArmy.attack, defendingArmy.hfHp / defendingArmy.player.hpMultiplier);
+                defenseDamages = defendingArmy.defense * getOSReplicaFactor(attackingArmy.attack,
+                        defendingArmy.hfHp / defendingArmy.player.hpMultiplier);
                 firstTurn = false;
             }
             else {
@@ -160,8 +204,11 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
             }
         }
 
-        String xpResults = "\nSurviving units learned from this battle:\n"
-                + "- Not implemented yet.\n";
+        String xpResults = "";
+        if (!bothArmiesAreDead) {
+            xpResults = XpSystem.calculateTroopsXp(attackingArmyXpValue, defendingArmyXpValue,
+                    attackingArmy, defendingArmy,winner, location);
+        }
 
         String footer = "\n################################################################################\n\n";
 
@@ -272,11 +319,14 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
         List<List<String>> rowsList = Arrays.asList(
                 Arrays.asList(attacker.name, defender.name),
                 Arrays.asList(
-                        StringFormatter.firstLeftSecondRightAlign(28, "Attack bonus:", (int) Math.round(attacker.attackMultiplier * 100) + "%", true),
-                        StringFormatter.firstLeftSecondRightAlign(28, "Defense bonus:", (int) Math.round(defender.defenseMultiplier * 100) + "%", true)
+                        StringFormatter.firstLeftSecondRightAlign(28, "Attack bonus:",
+                                (int) Math.round(attacker.attackMultiplier * 100) + "%", true),
+                        StringFormatter.firstLeftSecondRightAlign(28, "Defense bonus:",
+                                (int) Math.round(defender.defenseMultiplier * 100) + "%", true)
                 ),
                 Arrays.asList(
-                        StringFormatter.firstLeftSecondRightAlign(28, "HP bonus (HF):", (int) Math.round(attacker.hpMultiplier * 100) + "%", true),
+                        StringFormatter.firstLeftSecondRightAlign(28, "HP bonus (HF):",
+                                (int) Math.round(attacker.hpMultiplier * 100) + "%", true),
                         StringFormatter.firstLeftSecondRightAlign(28, defenderHpText, defenderHpPercentage, true)
                 )
         );
