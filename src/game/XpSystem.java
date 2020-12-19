@@ -98,7 +98,7 @@ public class XpSystem {
                 xpTroops.set(unit.xpInto, new Pair<>(xpTroops.getUnit(unit.xpInto), newAmount));
 
                 xpResults.append("- ").append(StringFormatter.bigNumber(levelUppedAmount)).append(" ").append(unit.pluralName).append(" became ")
-                        .append(unit.xpInto).append("\n");
+                        .append(existingPair.getKey().pluralName).append("\n");
             }
         }
 
