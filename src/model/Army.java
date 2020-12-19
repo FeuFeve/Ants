@@ -131,6 +131,12 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
         nestHp = 0;
     }
 
+    private double getLocationHp(String location) {
+        if (location.equals("nest")) return nestHp;
+        else if (location.equals("dome")) return domeHp;
+        else return hfHp;
+    }
+
     public static void attackIn(String location, Army attackingArmy, Army defendingArmy) {
 
         long attackingArmyXpValue = XpSystem.calculateArmyXpValue(attackingArmy);
@@ -151,7 +157,7 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
             double defenseDamages = -1;
             if (firstTurn) {
                 defenseDamages = defendingArmy.defense * getOSReplicaFactor(attackingArmy.attack,
-                        defendingArmy.hfHp / defendingArmy.player.hpMultiplier);
+                        defendingArmy.getLocationHp(location), defendingArmy.hfHp / defendingArmy.player.hpMultiplier);
                 firstTurn = false;
             }
             else {
@@ -215,10 +221,11 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
         System.out.println(header + report + winnerText + xpResults + footer);
     }
 
-    private static double getOSReplicaFactor(double attack, double defenderHp) {
-        if (attack > 3 * defenderHp) return 0.1;
-        if (attack > 2 * defenderHp) return 0.3;
-        if (attack > 1.5 * defenderHp) return 0.5;
+    private static double getOSReplicaFactor(double attack, double defenderRealHp, double defenderBaseHp) {
+        if (attack < defenderRealHp) return 1;
+        if (attack > 3 * defenderBaseHp) return 0.1;
+        if (attack > 2 * defenderBaseHp) return 0.3;
+        if (attack > 1.5 * defenderBaseHp) return 0.5;
         return 1;
     }
 
