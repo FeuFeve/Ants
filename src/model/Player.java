@@ -25,7 +25,7 @@ public class Player extends GameObject {
     public void debugModifyStats(int weapons, int shields, int dome, int nest, int mealybugs) {
         attackMultiplier = defenseMultiplier = Math.round((1 + 0.1 * weapons) * 100) / 100.0;
         hpMultiplier = Math.round((1 + 0.1 * shields) * 100) / 100.0;
-        domeHpMultiplier = Math.round((1 + 0.05 * dome) * 100) / 100.0;
+        domeHpMultiplier = Math.round((1.1 + 0.05 * dome) * 100) / 100.0;
         nestHpMultiplier = Math.round((1.3 + 0.15 * nest) * 100) / 100.0;
         xpMultiplier = Math.round((1 +  0.1 * mealybugs) * 100) / 100.0;
     }

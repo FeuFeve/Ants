@@ -50,7 +50,7 @@ public class Main {
         oArmy.add("Top killer", 333_000_000);
 //        System.out.println(oArmy);
 
-        Army.attackIn("nest", fArmy, oArmy);
+        Army.attackIn("dome", fArmy, oArmy);
 
 //        Display.displayBaseUnitTable();
 //        Display.displayPlayerUnitTable(FeuFeve);
