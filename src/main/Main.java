@@ -1,5 +1,6 @@
 package main;
 
+import game.Attack;
 import model.Army;
 import model.Player;
 
@@ -32,17 +33,6 @@ public class Main {
         Player OxyMore = new Player("OxyMore");
         Army oArmy = new Army(OxyMore);
         OxyMore.debugModifyStats(31, 29, 31, 37, 9);
-        /*
-        800 000 000 Jeunes Soldates Naines,
-        400 000 000 Soldates Naines
-        30 000 000 Naines d’Elites
-        20 000 000 Concierges
-        15 000 000 Concierges d’élites
-        100 000 000 Artilleuses
-        150 000 000 Artilleuses d’élites
-        50 000 000 Tanks d’élites
-        125 000 000 Tueuses d’élites
-        */
         oArmy.add("Young dwarf", 1_800_000_000);
         oArmy.add("Dwarf", 700_000_000);
         oArmy.add("Top dwarf", 450_000_000);
@@ -59,7 +49,8 @@ public class Main {
         oArmy.add("Top killer", 333_000_000);
 //        System.out.println(oArmy);
 
-        Army.attackIn("nest", fArmy, oArmy);
+        Attack attack = new Attack(fArmy, oArmy, "nest");
+        attack.fight();
 
 //        Display.displayBaseUnitTable();
 //        Display.displayPlayerUnitTable(FeuFeve);
