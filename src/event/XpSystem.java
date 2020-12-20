@@ -76,6 +76,9 @@ public class XpSystem {
     }
 
     public static String xpArmy(Army army, double xpRatio) {
+        if (xpRatio > 1)
+            xpRatio = 1;
+
         StringBuilder xpResults = new StringBuilder();
 
         // Calculate the amounts of units that level-up
