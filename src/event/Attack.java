@@ -1,4 +1,4 @@
-package game;
+package event;
 
 import javafx.util.Pair;
 import model.Army;
@@ -16,22 +16,54 @@ import java.util.List;
 public class Attack extends GameEvent {
 
     public Army attackingArmy;
-    public Army defendingArmy;
+    public Player defender;
     public String location;
 
 
-    public Attack(Army attackingArmy, Army defendingArmy, String location) {
+    public Attack(Army attackingArmy, Player defender, String location) {
         this.attackingArmy = attackingArmy;
-        this.defendingArmy = defendingArmy;
+        this.defender = defender;
         this.location = location;
+
+        String oldLocation = attackingArmy.getLocation();
+        attackingArmy.player.resetArmy(oldLocation);
+        attackingArmy.setLocation("outside");
+        attackingArmy.player.attacks.add(this);
     }
 
-    public void fight() {
+    public Attack fight() {
+        Player winner;
+        switch (location) {
+            case "hunting field":
+                fightIn("hunting field", defender.hfArmy);
+                break;
+            case "dome":
+                winner = fightIn("hunting field", defender.hfArmy);
+                if (!winner.name.equals(defender.name))
+                    fightIn("dome", defender.domeArmy);
+                break;
+            case "nest":
+                winner = fightIn("hunting field", defender.hfArmy);
+                if (!winner.name.equals(defender.name))
+                    winner = fightIn("dome", defender.domeArmy);
+                if (!winner.name.equals(defender.name))
+                    fightIn("nest", defender.nestArmy);
+                break;
+        }
+        return this;
+    }
+
+    private Player fightIn(String location, Army defendingArmy) {
+
+        if (defendingArmy.totalUnitAmount == 0) {
+            System.out.println("- The defender had no army in his " + location + ".");
+            return attackingArmy.player;
+        }
 
         long attackingArmyXpValue = XpSystem.calculateArmyXpValue(attackingArmy);
         long defendingArmyXpValue = XpSystem.calculateArmyXpValue(defendingArmy);
 
-        String header = getAttackerDefenderStatsTable(attackingArmy.player, defendingArmy.player);
+        String header = getAttackerDefenderStatsTable(attackingArmy.player, defendingArmy.player, location);
 
         StringBuilder report = new StringBuilder("\nAttacking troops: " + attackingArmy + "\n"
                 + "Defending troops: " + defendingArmy + "\n\n");
@@ -43,9 +75,9 @@ public class Attack extends GameEvent {
         while (winner == null && !bothArmiesAreDead) {
 
             // Stats before the attacker/defender turns
-            double defenseDamages = -1;
+            double defenseDamages;
             if (firstTurn) {
-                defenseDamages = defendingArmy.defense * getOSReplicaFactor();
+                defenseDamages = defendingArmy.defense * getOSReplicaFactor(defendingArmy);
                 firstTurn = false;
             }
             else {
@@ -53,16 +85,16 @@ public class Attack extends GameEvent {
             }
 
             // Attacker's turn
-            report.append(attack1TurnIn(location, "attack", attackingArmy, defendingArmy, 0));
+            report.append(attack1TurnIn(location, "attacker's turn", attackingArmy, defendingArmy, 0));
 
             // Defender's turn
-            report.append(attack1TurnIn("hunting field", "defense", defendingArmy, attackingArmy, defenseDamages));
+            report.append(attack1TurnIn("hunting field", "defender's turn", defendingArmy, attackingArmy, defenseDamages));
 
             // Win conditions check
-            if (attackingArmy.totalAmount == 0) {
+            if (attackingArmy.totalUnitAmount == 0) {
                 winner = defender;
             }
-            if (defendingArmy.totalAmount == 0) {
+            if (defendingArmy.totalUnitAmount == 0) {
                 if (winner == null) {
                     winner = attacker;
                 }
@@ -75,34 +107,51 @@ public class Attack extends GameEvent {
         }
 
         String winnerText = "\n";
+        String xpResults = "", beforeAfterXp = "";
         if (bothArmiesAreDead) {
             winnerText += "\nBoth armies crashed into each other. No winner this time.\n";
         }
         else {
             winnerText += winner.name + " crushed the opposite army.\n";
-            if (attackingArmy.totalAmount != 0) {
+            String attack, defense, hp = "";
+            if (attackingArmy.totalUnitAmount != 0) {
                 winnerText += "Surviving troops: " + attackingArmy + "\n";
-                winnerText += "Stats: Attack = " + StringFormatter.bigNumber(Math.round(attackingArmy.attack))
-                        + ", Defense = " + StringFormatter.bigNumber(Math.round(attackingArmy.defense))
-                        + ", HF HP = " + StringFormatter.bigNumber(Math.round(attackingArmy.hfHp)) + "\n";
+                hp = "HF HP = " + StringFormatter.bigNumber(Math.round(attackingArmy.hp));
+                attack = "Attack = " + StringFormatter.bigNumber(Math.round(attackingArmy.attack));
+                defense = "Defense = " + StringFormatter.bigNumber(Math.round(attackingArmy.defense));
             }
             else {
                 winnerText += "Surviving troops: " + defendingArmy + "\n";
-                winnerText += "Stats: Attack = " + StringFormatter.bigNumber(Math.round(defendingArmy.attack))
-                        + ", Defense = " + StringFormatter.bigNumber(Math.round(defendingArmy.defense))
-                        + ", HF HP = " + StringFormatter.bigNumber(Math.round(defendingArmy.hfHp)) + "\n";
+                hp = "HF HP = " + StringFormatter.bigNumber(Math.round(defendingArmy.hp));
+                attack = "Attack = " + StringFormatter.bigNumber(Math.round(defendingArmy.attack));
+                defense = "Defense = " + StringFormatter.bigNumber(Math.round(defendingArmy.defense));
             }
+
+            xpResults = XpSystem.calculateTroopsXp(attackingArmyXpValue, defendingArmyXpValue, attackingArmy,
+                    defendingArmy,winner, location);
+
+            beforeAfterXp = "\nStats: before -> after xp\n";
+            if (attackingArmy.totalUnitAmount != 0) {
+                hp += " -> " + StringFormatter.bigNumber(Math.round(attackingArmy.hp)) + "\n";
+                attack += " -> " + StringFormatter.bigNumber(Math.round(attackingArmy.attack)) + "\n";
+                defense += " -> " + StringFormatter.bigNumber(Math.round(attackingArmy.defense)) + "\n";
+            }
+            else {
+                hp += " -> " + StringFormatter.bigNumber(Math.round(defendingArmy.hp)) + "\n";
+                attack += " -> " + StringFormatter.bigNumber(Math.round(defendingArmy.attack)) + "\n";
+                defense += " -> " + StringFormatter.bigNumber(Math.round(defendingArmy.defense)) + "\n";
+            }
+            beforeAfterXp += hp + attack + defense;
+
+            if (winner == attacker)
+                winner.domeArmy.addToArmy(attackingArmy);
         }
 
-        String xpResults = "";
-        if (!bothArmiesAreDead) {
-            xpResults = XpSystem.calculateTroopsXp(attackingArmyXpValue, defendingArmyXpValue,
-                    attackingArmy, defendingArmy,winner, location);
-        }
 
         String footer = "\n################################################################################\n\n";
 
-        System.out.println(header + report + winnerText + xpResults + footer);
+        System.out.println(header + report + winnerText + xpResults + beforeAfterXp + footer);
+        return winner;
     }
 
     private static String attack1TurnIn(String location, String situation, Army attackingArmy, Army defendingArmy, double overrideDamages) {
@@ -110,10 +159,10 @@ public class Attack extends GameEvent {
         if (overrideDamages > 0) {
             damages = overrideDamages;
         }
-        else if (situation.equals("attack")) {
+        else if (situation.equals("attacker's turn")) {
             damages = attackingArmy.attack;
         }
-        else if (situation.equals("defense")) {
+        else if (situation.equals("defender's turn")) {
             damages = attackingArmy.defense;
         }
         if (damages == -1)
@@ -121,20 +170,17 @@ public class Attack extends GameEvent {
 
         String result = attackingArmy.player.name + " inflicts " + StringFormatter.bigNumber(Math.round(damages)) + " damages and kills ";
 
-        double defenderHp;
         double defenderHpMultiplier;
-        if (situation.equals("defense")) {
-            defenderHp = defendingArmy.hfHp;
+        if (situation.equals("defender's turn")) {
             defenderHpMultiplier = defendingArmy.player.hpMultiplier;
         }
         else {
-            defenderHp = defendingArmy.getLocationHp(location);
             defenderHpMultiplier = defendingArmy.player.getHpMultiplierFor(location);
         }
 
         long kills = 0;
-        if (damages > defenderHp) {
-            kills = defendingArmy.totalAmount;
+        if (damages > defendingArmy.hp) {
+            kills = defendingArmy.totalUnitAmount;
             defendingArmy.killAll();
         }
         else {
@@ -168,26 +214,18 @@ public class Attack extends GameEvent {
         return result;
     }
 
-    private String getAttackerDefenderStatsTable(Player attacker, Player defender) {
+    private String getAttackerDefenderStatsTable(Player attacker, Player defender, String location) {
         String header = "\n################################################################################\n"
                 + "----------------------------     COMBAT  REPORT     ----------------------------\n\n"
                 + Date.getRealDateAndTime() + " - " + attacker.name + " attacks " + defender.name + "'s " + location + ".\n\n";
 
         String defenderHpText = "";
-        String defenderHpPercentage = "";
+        double defenderHpMultiplier = defender.getHpMultiplierFor(location);
+        String defenderHpPercentage = (int) Math.round(defenderHpMultiplier * 100) + "%";
         switch (location) {
-            case "hunting field":
-                defenderHpText = "HP bonus (HF):";
-                defenderHpPercentage = (int) Math.round(defender.hpMultiplier * 100) + "%";
-                break;
-            case "dome":
-                defenderHpText = "HP bonus (Dome):";
-                defenderHpPercentage = (int) Math.round((defender.hpMultiplier + defender.domeHpMultiplier - 1) * 100) + "%";
-                break;
-            case "nest":
-                defenderHpText = "HP bonus (Nest):";
-                defenderHpPercentage = (int) Math.round((defender.hpMultiplier + defender.nestHpMultiplier - 1) * 100) + "%";
-                break;
+            case "hunting field": defenderHpText = "HP bonus (HF):"; break;
+            case "dome": defenderHpText = "HP bonus (Dome):"; break;
+            case "nest": defenderHpText = "HP bonus (Nest):"; break;
         }
 
         List<String> headersList = Arrays.asList("ATTACKER", "DEFENDER");
@@ -218,12 +256,11 @@ public class Attack extends GameEvent {
         return header;
     }
 
-    public double getOSReplicaFactor() {
+    public double getOSReplicaFactor(Army defendingArmy) {
         double attack = attackingArmy.attack;
-        double defenderRealHp = defendingArmy.getLocationHp(location);
-        double defenderBaseHp = defendingArmy.hfHp / defendingArmy.player.hpMultiplier;
+        double defenderBaseHp = defendingArmy.hp / defendingArmy.player.hpMultiplier;
 
-        if (attack < defenderRealHp) return 1;
+        if (attack < defendingArmy.hp) return 1;
         if (attack > 3 * defenderBaseHp) return 0.1;
         if (attack > 2 * defenderBaseHp) return 0.3;
         if (attack > 1.5 * defenderBaseHp) return 0.5;

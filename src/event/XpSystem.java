@@ -1,4 +1,4 @@
-package game;
+package event;
 
 import javafx.util.Pair;
 import model.Army;
@@ -92,10 +92,7 @@ public class XpSystem {
 
                 // Add to the xpTroops the units that level-upped
                 Pair<Unit, Long> existingPair = xpTroops.get(unit.xpInto);
-                long newAmount = existingPair.getValue();
-                if (newAmount > 0)
-                    newAmount += levelUppedAmount;
-                xpTroops.set(unit.xpInto, new Pair<>(xpTroops.getUnit(unit.xpInto), newAmount));
+                xpTroops.add(unit.xpInto, levelUppedAmount);
 
                 xpResults.append("- ").append(StringFormatter.bigNumber(levelUppedAmount)).append(" ").append(unit.pluralName).append(" became ")
                         .append(existingPair.getKey().pluralName).append("\n");
@@ -123,6 +120,7 @@ public class XpSystem {
             result += "XP rate = " + (Math.round(xpRatio * 10_000) / 100.0) + "%\n";
         }
 
+        army.recalculateAllStats();
         return result;
     }
 }

@@ -8,26 +8,38 @@ import java.util.ArrayList;
 
 public class Army extends ArrayList<Pair<Unit, Long>> {
 
+    // Player related
     public Player player;
 
-    public long totalAmount;
+    // Army related
+    public long totalUnitAmount;
     public double attack;
     public double defense;
-    public double hfHp;
-    public double domeHp;
-    public double nestHp;
+    public double hp;
+    private String location;
 
 
     public Army() {
         for (Unit unit : Config.units) {
             add(unit);
         }
+        this.location = "outside";
     }
 
     public Army(Player player) {
+        this(player, "outside");
+    }
+
+    public Army(Player player, String location) {
         this.player = player;
         for (Unit unit : Config.units) {
             add(unit);
+        }
+        this.location = location;
+        switch (location) {
+            case "hunting field": player.hfArmy = this; break;
+            case "dome": player.domeArmy = this; break;
+            case "nest": player.nestArmy = this; break;
         }
     }
 
@@ -53,13 +65,15 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
         for (int index = 0; index < size(); index++) {
             Pair<Unit, Long> pair = get(index);
             if (pair.getKey().name.equals(unitName)) {
+                removeStats(pair.getKey(), pair.getValue());
                 set(index, element);
+                addStats(element.getKey(), element.getValue());
                 return;
             }
         }
     }
 
-    public void add(Unit unit) {
+    private void add(Unit unit) {
         super.add(new Pair<>(unit, 0L));
     }
 
@@ -82,30 +96,38 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
     }
 
     private void addStats(Unit unit, long amount) {
+        totalUnitAmount += amount;
         if (player != null) {
-            totalAmount += amount;
             attack += (player.attackMultiplier * unit.attack * amount);
             defense += (player.defenseMultiplier * unit.defense * amount);
-            hfHp += (player.hpMultiplier * unit.hp * amount);
-            domeHp += ((player.hpMultiplier + player.domeHpMultiplier - 1) * unit.hp * amount);
-            nestHp += ((player.hpMultiplier + player.nestHpMultiplier - 1) * unit.hp * amount);
+            double hpMultiplier = player.getHpMultiplierFor(location);
+            hp += (hpMultiplier * unit.hp * amount);
+        }
+        else {
+            attack += (unit.attack * amount);
+            defense += (unit.defense * amount);
+            hp += (unit.hp * amount);
         }
     }
 
     private void removeStats(Unit unit, long amount) {
+        totalUnitAmount -= amount;
         if (player != null) {
-            totalAmount -= amount;
             attack -= (player.attackMultiplier * unit.attack * amount);
             defense -= (player.defenseMultiplier * unit.defense * amount);
-            hfHp -= (player.hpMultiplier * unit.hp * amount);
-            domeHp -= ((player.hpMultiplier + player.domeHpMultiplier - 1) * unit.hp * amount);
-            nestHp -= ((player.hpMultiplier + player.nestHpMultiplier - 1) * unit.hp * amount);
+            double hpMultiplier = player.getHpMultiplierFor(location);
+            hp -= (hpMultiplier * unit.hp * amount);
+        }
+        else {
+            attack -= (unit.attack * amount);
+            defense -= (unit.defense * amount);
+            hp -= (unit.hp * amount);
         }
     }
 
     public void recalculateAllStats() {
-        totalAmount = 0;
-        attack = defense = hfHp = domeHp = nestHp = 0;
+        totalUnitAmount = 0;
+        attack = defense = hp = 0;
         for (Pair<Unit, Long> pair : this) {
             addStats(pair.getKey(), pair.getValue());
         }
@@ -116,21 +138,25 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
         for (Unit unit : Config.units) {
             add(unit);
         }
-        totalAmount = 0;
+        totalUnitAmount = 0;
         attack = 0;
         defense = 0;
-        hfHp = 0;
-        domeHp = 0;
-        nestHp = 0;
+        hp = 0;
     }
 
-    public double getLocationHp(String location) {
-        switch (location) {
-            case "hunting field": return hfHp;
-            case "dome": return domeHp;
-            case "nest": return nestHp;
-            default: return 0;
+    public void addToArmy(Army armyToAdd) {
+        for (Pair<Unit, Long> pairToAdd : armyToAdd) {
+            add(pairToAdd.getKey().name, pairToAdd.getValue());
         }
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String newLocation) {
+        location = newLocation;
+        recalculateAllStats();
     }
 
     @Override
@@ -153,7 +179,10 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
                 }
             }
         }
-        return toReturn + ".";
+        if (toReturn.toString().isEmpty())
+            return "None";
+        else
+            return toReturn + ".";
     }
 
     public String toStringComplete() {
@@ -166,6 +195,9 @@ public class Army extends ArrayList<Pair<Unit, Long>> {
             else
                 toReturn.append(", ").append(StringFormatter.bigNumber(unit.getValue())).append(" ").append(unit.getKey().pluralName);
         }
-        return toReturn + ".";
+        if (toReturn.toString().isEmpty())
+            return "None";
+        else
+            return toReturn + ".";
     }
 }
