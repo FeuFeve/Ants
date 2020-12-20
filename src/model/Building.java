@@ -4,14 +4,22 @@ public class Building extends GameObject {
 
     public int level;
 
-    public double costMultiplierPerLevel = 2;
-    public double productionMultiplierPerLevel;
-    public double storageMultiplierPerLevel = 2;
+    public double constructionTimePerLevelMultiplier;
+    public double costPerLevelMultiplier;
+    public double productionPerLevelMultiplier;
+    public double storagePerLevelMultiplier;
 
-    public long woodCost;
+    public long constructionTime;
     public long foodCost;
-    public long woodProduction;
+    public long woodCost;
     public long foodProduction;
-    public long woodStorage;
+    public long woodProduction;
     public long foodStorage;
+    public long woodStorage;
+
+
+    @Override
+    public String toString() {
+        return name + ": level " + level;
+    }
 }
