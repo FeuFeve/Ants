@@ -47,6 +47,16 @@ public class Main {
         oArmy.add("Killer", 155_625_375);
         oArmy.add("Top killer", 333_000_000);
 
+        Army oArmy2 = new Army(OxyMore, "nest");
+        oArmy2.add("Young dwarf", 3_500_000_000L);
+        oArmy2.add("Dwarf", 50_000);
+        oArmy2.add("Soldier", 1_000_000_000);
+        oArmy2.add("Top doorkeeper", 50_000_000);
+        oArmy2.add("Top fire ant", 200_000_000);
+        oArmy2.add("Tank", 125_000_000);
+        oArmy2.add("Top tank", 500_000_000);
+        oArmy2.add("Killer", 100_000_000);
+
         FeuFeve.displayArmies();
         OxyMore.displayArmies();
 

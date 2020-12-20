@@ -50,6 +50,8 @@ public class Attack extends GameEvent {
                     fightIn("nest", defender.nestArmy);
                 break;
         }
+        if (attackingArmy.totalUnitAmount > 0)
+            attackingArmy.player.domeArmy.addToArmy(attackingArmy);
         return this;
     }
 
@@ -142,9 +144,6 @@ public class Attack extends GameEvent {
                 defense += " -> " + StringFormatter.bigNumber(Math.round(defendingArmy.defense)) + "\n";
             }
             beforeAfterXp += hp + attack + defense;
-
-            if (winner == attacker)
-                winner.domeArmy.addToArmy(attackingArmy);
         }
 
 
