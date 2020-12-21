@@ -1,6 +1,8 @@
 package utilities;
 
+import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.time.temporal.ChronoField;
 
 public class Date {
@@ -42,5 +44,25 @@ public class Date {
     public static String getRealTimeMs() {
         update();
         return String.format("%02d:%02d:%02d.%03d", hour, minute, second, millis);
+    }
+
+    public static LocalDateTime getCurrentDatePlus(long secondsToAdd) {
+        return LocalDateTime.now().plusSeconds(secondsToAdd);
+    }
+
+    public static LocalDateTime getDatePlus(LocalDateTime ldt, long secondsToAdd) {
+        return ldt.plusSeconds(secondsToAdd);
+    }
+
+    public static LocalDateTime getDateWithMultiplier(LocalDateTime beginLdt, LocalDateTime endLdt, double multiplier) {
+        long beginTimeInSeconds = beginLdt.toEpochSecond(ZoneOffset.UTC);
+        long endTimeInSeconds = endLdt.toEpochSecond(ZoneOffset.UTC);
+
+        long timeDelta = endTimeInSeconds - beginTimeInSeconds;
+        long newTimeDelta = Math.round(timeDelta * multiplier);
+
+        long newEndTimeInSeconds = beginTimeInSeconds + newTimeDelta;
+
+        return LocalDateTime.ofEpochSecond(newEndTimeInSeconds, 0, ZoneOffset.UTC);
     }
 }

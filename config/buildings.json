@@ -1,6 +1,6 @@
 [
   {
-    "name": "Champignonnière",
+    "name": "Mushroom chamber",
     "constructionTimePerLevelMultiplier": 1.6,
     "costPerLevelMultiplier": 1.85,
     "productionPerLevelMultiplier": 1.7,
@@ -9,7 +9,7 @@
     "foodProduction": 122
   },
   {
-    "name": "Entrepôt de nourriture",
+    "name": "Food warehouse",
     "constructionTimePerLevelMultiplier": 1.6,
     "costPerLevelMultiplier": 2,
     "storagePerLevelMultiplier": 2,
@@ -18,7 +18,7 @@
     "foodStorage": 2400
   },
   {
-    "name": "Entrepôt de matériaux",
+    "name": "Wood warehouse",
     "constructionTimePerLevelMultiplier": 1.6,
     "costPerLevelMultiplier": 2,
     "storagePerLevelMultiplier": 2,

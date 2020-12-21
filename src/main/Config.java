@@ -24,7 +24,6 @@ public class Config {
         worker = loadWorker();
         units = loadUnits();
         buildings = loadBuildings();
-        System.out.println(buildings);
     }
 
     private static Unit loadWorker() {

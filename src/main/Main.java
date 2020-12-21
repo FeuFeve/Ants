@@ -3,6 +3,9 @@ package main;
 import event.Attack;
 import model.Army;
 import model.Player;
+import utilities.Date;
+
+import java.time.LocalDateTime;
 
 public class Main {
 
@@ -10,6 +13,13 @@ public class Main {
         System.out.println("Welcome back!");
 
         Config.loadConfig();
+
+        LocalDateTime ldtNow = Date.getCurrentDatePlus(0);
+        System.out.println("ldtNow = " + ldtNow);
+        LocalDateTime ldt2 = Date.getCurrentDatePlus(8640000);
+        System.out.println("ldt2 = " + ldt2);
+        LocalDateTime ldt2_10 = Date.getDateWithMultiplier(ldtNow, ldt2, 0.9);
+        System.out.println("ldt2_10 = " + ldt2_10);
 
 //        Player FeuFeve = new Player("FeuFeve");
 //        FeuFeve.debugModifyStats(23, 24, 27, 28, 13);
