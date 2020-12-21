@@ -11,6 +11,13 @@ public class Player extends GameObject {
     public int layingSpeedLevel;
     public double layingSpeedMultiplier;
 
+    // Resources
+    public long workers;
+    public long food;
+    public long wood;
+    public long maxFood = 1700;
+    public long maxWood = 1700;
+
     // Army related
     public double attackMultiplier = 1;
     public double defenseMultiplier = 1;
@@ -35,6 +42,47 @@ public class Player extends GameObject {
     public Player(String name) {
         this();
         this.name = name;
+    }
+
+    public void addResource(String name, long amount) {
+        switch (name) {
+            case "food":
+                food += amount;
+                if (food > maxFood)
+                    food = maxFood;
+                break;
+            case "wood":
+                wood += amount;
+                if (wood > maxWood)
+                    wood = maxWood;
+                break;
+            case "worker":
+                workers += amount;
+                break;
+        }
+    }
+
+    public boolean hasEnoughResource(String name, long amount) {
+        switch (name) {
+            case "food":
+                return food >= amount;
+            case "wood":
+                return wood >= amount;
+            case "worker":
+                return workers >= amount;
+        }
+        return false;
+    }
+
+    public boolean removeResource(String name, long amount) {
+        if (hasEnoughResource(name, amount)) {
+            switch (name) {
+                case "food": food -= amount; return true;
+                case "wood": wood -= amount; return true;
+                case "worker": workers -= amount; return true;
+            }
+        }
+        return false;
     }
 
     public void resetArmy(String location) {

@@ -1,22 +1,23 @@
 package model;
 
-public class Building extends GameObject {
+public class Building extends Upgradable {
 
-    public int level;
+    public void levelUp(Player player) {
+        long levelUpTimeCost;
 
-    public double constructionTimePerLevelMultiplier;
-    public double costPerLevelMultiplier;
-    public double productionPerLevelMultiplier;
-    public double storagePerLevelMultiplier;
-
-    public long constructionTime;
-    public long foodCost;
-    public long woodCost;
-    public long foodProduction;
-    public long woodProduction;
-    public long foodStorage;
-    public long woodStorage;
-
+        if (level == 0) {
+            if (name.equals("Food warehouse")) { // TODO: check real name
+                player.maxFood -= 1200;
+                player.maxFood += foodStorage;
+            }
+            else if (name.equals("Wood warehouse")) { // TODO: check real name
+                player.maxWood -= 1200;
+                player.maxWood += woodStorage;
+            }
+        }
+        else {
+        }
+    }
 
     @Override
     public String toString() {
