@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<HBox id="background" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <VBox id="transparent" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" stylesheets="@style.css">
-         <children>
-            <Label text="Ants" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Linux Biolinum G Regular" size="54.0" />
-               </font>
-            </Label>
-         </children>
-      </VBox>
-   </children>
+<HBox id="background" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@style.css"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox id="transparent" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="650.0"
+         prefWidth="500.0" stylesheets="@style.css">
+      <ImageView fitHeight="200.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../images/logo.png"/>
+      </ImageView>
+      <Label text="Ants" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Linux Biolinum G Regular" size="54.0"/>
+         </font>
+      </Label>
+   </VBox>
 </HBox>

@@ -4,6 +4,10 @@
 }
 
 #transparent {
-    -fx-background-color: rgba(0, 0, 0, 0.3);
+    -fx-background-color: rgba(130, 80, 40, 0.3);
     -fx-background-radius: 10;
+}
+
+#logo {
+    -fx-background-image: url("../images/logo.png");
 }
