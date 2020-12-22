@@ -1,9 +1,9 @@
 #background {
-    -fx-background-image: url("../images/ants.jpg");
+    -fx-background-image: url("../images/background.jpg");
     -fx-background-size: cover;
 }
 
 #transparent {
-    -fx-background-color: rgba(0, 0, 0, 0.2);
+    -fx-background-color: rgba(0, 0, 0, 0.3);
     -fx-background-radius: 10;
 }
