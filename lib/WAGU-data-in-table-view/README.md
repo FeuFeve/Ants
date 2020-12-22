@@ -90,7 +90,7 @@ table.setColAlignsList(colAlignList);
 |Venessa                 |Female       |No    |           22|    100700.50|
 +------------------------+-------------+------+-------------+-------------+
 ```
-Note that when comparing with previous two examples, there are two main changes in this table. First one (and the big) is the full grid and second is the changes in width of columns.
+Note that when comparing with previous two examples, there are two game.main changes in this table. First one (and the big) is the full grid and second is the changes in width of columns.
 ## Example 3 - Code
 ```sh
 List<Integer> colWidthsListEdited = Arrays.asList(24, 13, 6, 13, 13);
