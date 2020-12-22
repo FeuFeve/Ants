@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 
-<AnchorPane id="body" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuViewController" />
+<HBox id="background" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox id="transparent" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" stylesheets="@style.css">
+         <children>
+            <Label text="Ants" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Linux Biolinum G Regular" size="54.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>

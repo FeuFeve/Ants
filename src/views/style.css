@@ -1,4 +1,9 @@
-#body {
+#background {
     -fx-background-image: url("../images/ants.jpg");
     -fx-background-size: cover;
+}
+
+#transparent {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+    -fx-background-radius: 10;
 }

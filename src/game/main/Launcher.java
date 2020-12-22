@@ -2,6 +2,7 @@ package game.main;
 
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 import utilities.Date;
 
@@ -18,13 +19,16 @@ public class Launcher extends Application {
 
         primaryStage.setOnCloseRequest(t -> exit());
         primaryStage.setTitle("Ants");
+//        primaryStage.setMaximized(true);
+//        primaryStage.setFullScreen(true);
+//        primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 //        primaryStage.setResizable(false);
 
         SceneManager.loadMainMenuScene();
         primaryStage.show();
     }
 
-    public void exit() {
+    public static void exit() {
         System.out.println("Exiting...");
         // TODO: save the game
         Platform.exit();

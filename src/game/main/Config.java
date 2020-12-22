@@ -21,9 +21,11 @@ public class Config {
     private static final String BUILDINGS_FILEPATH = CONFIG_FOLDER_PATH + "buildings.json";
 
     public static void loadConfig() {
+        System.out.print("Loading config files... ");
         worker = loadWorker();
         units = loadUnits();
         buildings = loadBuildings();
+        System.out.println(" Done.");
     }
 
     private static Unit loadWorker() {

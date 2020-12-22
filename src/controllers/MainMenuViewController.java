@@ -10,7 +10,7 @@ public class MainMenuViewController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        System.out.println("Initializing MainMenuViewController...");
+        System.out.print("Initializing MainMenuViewController...");
         ControllersManager.mainMenuViewController = this;
         System.out.println(" Done.");
     }
