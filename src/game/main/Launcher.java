@@ -16,7 +16,6 @@ public class Launcher extends Application {
         System.out.println("Welcome back!");
 
         SceneManager.init(primaryStage);
-//        Config.loadConfig();
 
         primaryStage.setOnCloseRequest(t -> exit());
         primaryStage.setTitle("Ants");
@@ -29,7 +28,7 @@ public class Launcher extends Application {
 
     public static void exit() {
         System.out.println("Exiting...");
-        // TODO: save the game
+        GameManager.saveWorld();
         Platform.exit();
         System.exit(0);
     }

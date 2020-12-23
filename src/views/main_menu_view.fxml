@@ -45,9 +45,9 @@
                <Font name="Linux Biolinum G Bold" size="20.0" />
             </font>
          </Label>
-         <TextField opacity="0.8" prefWidth="300.0" />
+         <TextField fx:id="pseudoTextField" opacity="0.8" prefWidth="300.0" />
       </HBox>
-      <Button mnemonicParsing="false" opacity="0.9" text="Login">
+      <Button mnemonicParsing="false" onAction="#login" opacity="0.9" text="Login">
          <VBox.margin>
             <Insets top="30.0" />
          </VBox.margin>

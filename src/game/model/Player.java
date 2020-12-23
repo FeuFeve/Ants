@@ -7,6 +7,8 @@ import java.util.List;
 
 public class Player extends GameObject {
 
+    public boolean isHuman;
+
     // General stats
     public int layingSpeedLevel;
     public double layingSpeedMultiplier;
@@ -42,6 +44,11 @@ public class Player extends GameObject {
     public Player(String name) {
         this();
         this.name = name;
+    }
+
+    public Player setHuman() {
+        isHuman = true;
+        return this;
     }
 
     public void addResource(String name, long amount) {

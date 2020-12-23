@@ -3,6 +3,7 @@ package game.main;
 import com.google.gson.reflect.TypeToken;
 import game.model.Building;
 import game.model.Unit;
+import game.model.World;
 import utilities.FileManager;
 
 import java.io.File;
@@ -22,10 +23,10 @@ public class Config {
     private static final String UNITS_FILE = "units.json";
     private static final String BUILDINGS_FILE = "buildings.json";
 
-    public static void loadConfigFor(File world) {
+    public static void loadConfigFor(String worldName) {
         System.out.print("Loading config files... ");
 
-        String configFilePath = world.getPath() + CONFIG_FOLDER_PATH;
+        String configFilePath = World.WORLDS_FOLDER_PATH + worldName + CONFIG_FOLDER_PATH;
         worker = loadWorker(configFilePath);
         units = loadUnits(configFilePath);
         buildings = loadBuildings(configFilePath);

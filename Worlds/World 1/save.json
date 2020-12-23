@@ -3,6 +3,601 @@
   "startingPlayers": 4,
   "players": [
     {
+      "isHuman": true,
+      "layingSpeedLevel": 0,
+      "layingSpeedMultiplier": 1.0,
+      "workers": 0,
+      "food": 0,
+      "wood": 0,
+      "maxFood": 1700,
+      "maxWood": 1700,
+      "attackMultiplier": 1.0,
+      "defenseMultiplier": 1.0,
+      "hpMultiplier": 1.0,
+      "domeHpMultiplier": 1.0,
+      "nestHpMultiplier": 1.0,
+      "xpMultiplier": 1.0,
+      "hfArmy": [
+        {
+          "key": {
+            "pluralName": "Young dwarves",
+            "hp": 8,
+            "attack": 3,
+            "defense": 2,
+            "layingTime": 300,
+            "foodCost": 16,
+            "xpInto": "Dwarf",
+            "xpValue": 85,
+            "name": "Young dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Dwarves",
+            "hp": 10,
+            "attack": 5,
+            "defense": 4,
+            "layingTime": 450,
+            "foodCost": 20,
+            "xpInto": "Top dwarf",
+            "xpValue": 125,
+            "name": "Dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top dwarves",
+            "hp": 13,
+            "attack": 7,
+            "defense": 6,
+            "layingTime": 574,
+            "foodCost": 26,
+            "xpValue": 170,
+            "name": "Top dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Young soldiers",
+            "hp": 16,
+            "attack": 10,
+            "defense": 9,
+            "layingTime": 740,
+            "foodCost": 30,
+            "xpInto": "Soldier",
+            "xpValue": 227,
+            "name": "Young soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Soldiers",
+            "hp": 20,
+            "attack": 15,
+            "defense": 14,
+            "layingTime": 1000,
+            "foodCost": 36,
+            "xpInto": "Top soldier",
+            "xpValue": 312,
+            "name": "Soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Doorkeepers",
+            "hp": 30,
+            "attack": 1,
+            "defense": 25,
+            "layingTime": 1410,
+            "foodCost": 70,
+            "xpInto": "Top doorkeeper",
+            "xpValue": 434,
+            "name": "Doorkeeper"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top doorkeepers",
+            "hp": 40,
+            "attack": 1,
+            "defense": 35,
+            "layingTime": 1410,
+            "foodCost": 105,
+            "xpValue": 592,
+            "name": "Top doorkeeper"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Fire ants",
+            "hp": 10,
+            "attack": 30,
+            "defense": 15,
+            "layingTime": 1440,
+            "foodCost": 30,
+            "xpInto": "Top fire ant",
+            "xpValue": 295,
+            "name": "Fire ant"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top fire ants",
+            "hp": 12,
+            "attack": 35,
+            "defense": 18,
+            "layingTime": 1520,
+            "foodCost": 34,
+            "xpValue": 349,
+            "name": "Top fire ant"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top soldiers",
+            "hp": 27,
+            "attack": 24,
+            "defense": 23,
+            "layingTime": 1450,
+            "foodCost": 44,
+            "xpValue": 460,
+            "name": "Top soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Tanks",
+            "hp": 35,
+            "attack": 55,
+            "defense": 1,
+            "layingTime": 1860,
+            "foodCost": 100,
+            "xpInto": "Top tank",
+            "xpValue": 642,
+            "name": "Tank"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top tanks",
+            "hp": 50,
+            "attack": 80,
+            "defense": 1,
+            "layingTime": 1860,
+            "foodCost": 150,
+            "xpValue": 990,
+            "name": "Top tank"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Killers",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "layingTime": 2740,
+            "foodCost": 80,
+            "xpInto": "Top killer",
+            "xpValue": 909,
+            "name": "Killer"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top killers",
+            "hp": 55,
+            "attack": 55,
+            "defense": 55,
+            "layingTime": 2740,
+            "foodCost": 90,
+            "xpValue": 1000,
+            "name": "Top killer"
+          },
+          "value": 0
+        }
+      ],
+      "domeArmy": [
+        {
+          "key": {
+            "pluralName": "Young dwarves",
+            "hp": 8,
+            "attack": 3,
+            "defense": 2,
+            "layingTime": 300,
+            "foodCost": 16,
+            "xpInto": "Dwarf",
+            "xpValue": 85,
+            "name": "Young dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Dwarves",
+            "hp": 10,
+            "attack": 5,
+            "defense": 4,
+            "layingTime": 450,
+            "foodCost": 20,
+            "xpInto": "Top dwarf",
+            "xpValue": 125,
+            "name": "Dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top dwarves",
+            "hp": 13,
+            "attack": 7,
+            "defense": 6,
+            "layingTime": 574,
+            "foodCost": 26,
+            "xpValue": 170,
+            "name": "Top dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Young soldiers",
+            "hp": 16,
+            "attack": 10,
+            "defense": 9,
+            "layingTime": 740,
+            "foodCost": 30,
+            "xpInto": "Soldier",
+            "xpValue": 227,
+            "name": "Young soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Soldiers",
+            "hp": 20,
+            "attack": 15,
+            "defense": 14,
+            "layingTime": 1000,
+            "foodCost": 36,
+            "xpInto": "Top soldier",
+            "xpValue": 312,
+            "name": "Soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Doorkeepers",
+            "hp": 30,
+            "attack": 1,
+            "defense": 25,
+            "layingTime": 1410,
+            "foodCost": 70,
+            "xpInto": "Top doorkeeper",
+            "xpValue": 434,
+            "name": "Doorkeeper"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top doorkeepers",
+            "hp": 40,
+            "attack": 1,
+            "defense": 35,
+            "layingTime": 1410,
+            "foodCost": 105,
+            "xpValue": 592,
+            "name": "Top doorkeeper"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Fire ants",
+            "hp": 10,
+            "attack": 30,
+            "defense": 15,
+            "layingTime": 1440,
+            "foodCost": 30,
+            "xpInto": "Top fire ant",
+            "xpValue": 295,
+            "name": "Fire ant"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top fire ants",
+            "hp": 12,
+            "attack": 35,
+            "defense": 18,
+            "layingTime": 1520,
+            "foodCost": 34,
+            "xpValue": 349,
+            "name": "Top fire ant"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top soldiers",
+            "hp": 27,
+            "attack": 24,
+            "defense": 23,
+            "layingTime": 1450,
+            "foodCost": 44,
+            "xpValue": 460,
+            "name": "Top soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Tanks",
+            "hp": 35,
+            "attack": 55,
+            "defense": 1,
+            "layingTime": 1860,
+            "foodCost": 100,
+            "xpInto": "Top tank",
+            "xpValue": 642,
+            "name": "Tank"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top tanks",
+            "hp": 50,
+            "attack": 80,
+            "defense": 1,
+            "layingTime": 1860,
+            "foodCost": 150,
+            "xpValue": 990,
+            "name": "Top tank"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Killers",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "layingTime": 2740,
+            "foodCost": 80,
+            "xpInto": "Top killer",
+            "xpValue": 909,
+            "name": "Killer"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top killers",
+            "hp": 55,
+            "attack": 55,
+            "defense": 55,
+            "layingTime": 2740,
+            "foodCost": 90,
+            "xpValue": 1000,
+            "name": "Top killer"
+          },
+          "value": 0
+        }
+      ],
+      "nestArmy": [
+        {
+          "key": {
+            "pluralName": "Young dwarves",
+            "hp": 8,
+            "attack": 3,
+            "defense": 2,
+            "layingTime": 300,
+            "foodCost": 16,
+            "xpInto": "Dwarf",
+            "xpValue": 85,
+            "name": "Young dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Dwarves",
+            "hp": 10,
+            "attack": 5,
+            "defense": 4,
+            "layingTime": 450,
+            "foodCost": 20,
+            "xpInto": "Top dwarf",
+            "xpValue": 125,
+            "name": "Dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top dwarves",
+            "hp": 13,
+            "attack": 7,
+            "defense": 6,
+            "layingTime": 574,
+            "foodCost": 26,
+            "xpValue": 170,
+            "name": "Top dwarf"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Young soldiers",
+            "hp": 16,
+            "attack": 10,
+            "defense": 9,
+            "layingTime": 740,
+            "foodCost": 30,
+            "xpInto": "Soldier",
+            "xpValue": 227,
+            "name": "Young soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Soldiers",
+            "hp": 20,
+            "attack": 15,
+            "defense": 14,
+            "layingTime": 1000,
+            "foodCost": 36,
+            "xpInto": "Top soldier",
+            "xpValue": 312,
+            "name": "Soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Doorkeepers",
+            "hp": 30,
+            "attack": 1,
+            "defense": 25,
+            "layingTime": 1410,
+            "foodCost": 70,
+            "xpInto": "Top doorkeeper",
+            "xpValue": 434,
+            "name": "Doorkeeper"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top doorkeepers",
+            "hp": 40,
+            "attack": 1,
+            "defense": 35,
+            "layingTime": 1410,
+            "foodCost": 105,
+            "xpValue": 592,
+            "name": "Top doorkeeper"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Fire ants",
+            "hp": 10,
+            "attack": 30,
+            "defense": 15,
+            "layingTime": 1440,
+            "foodCost": 30,
+            "xpInto": "Top fire ant",
+            "xpValue": 295,
+            "name": "Fire ant"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top fire ants",
+            "hp": 12,
+            "attack": 35,
+            "defense": 18,
+            "layingTime": 1520,
+            "foodCost": 34,
+            "xpValue": 349,
+            "name": "Top fire ant"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top soldiers",
+            "hp": 27,
+            "attack": 24,
+            "defense": 23,
+            "layingTime": 1450,
+            "foodCost": 44,
+            "xpValue": 460,
+            "name": "Top soldier"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Tanks",
+            "hp": 35,
+            "attack": 55,
+            "defense": 1,
+            "layingTime": 1860,
+            "foodCost": 100,
+            "xpInto": "Top tank",
+            "xpValue": 642,
+            "name": "Tank"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top tanks",
+            "hp": 50,
+            "attack": 80,
+            "defense": 1,
+            "layingTime": 1860,
+            "foodCost": 150,
+            "xpValue": 990,
+            "name": "Top tank"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Killers",
+            "hp": 50,
+            "attack": 50,
+            "defense": 50,
+            "layingTime": 2740,
+            "foodCost": 80,
+            "xpInto": "Top killer",
+            "xpValue": 909,
+            "name": "Killer"
+          },
+          "value": 0
+        },
+        {
+          "key": {
+            "pluralName": "Top killers",
+            "hp": 55,
+            "attack": 55,
+            "defense": 55,
+            "layingTime": 2740,
+            "foodCost": 90,
+            "xpValue": 1000,
+            "name": "Top killer"
+          },
+          "value": 0
+        }
+      ],
+      "attacks": [],
+      "name": "FeuFeve"
+    },
+    {
+      "isHuman": false,
       "layingSpeedLevel": 0,
       "layingSpeedMultiplier": 1.0,
       "workers": 0,
@@ -596,6 +1191,7 @@
       "name": "Player 0"
     },
     {
+      "isHuman": false,
       "layingSpeedLevel": 0,
       "layingSpeedMultiplier": 1.0,
       "workers": 0,
@@ -1189,6 +1785,7 @@
       "name": "Player 1"
     },
     {
+      "isHuman": false,
       "layingSpeedLevel": 0,
       "layingSpeedMultiplier": 1.0,
       "workers": 0,
@@ -1782,6 +2379,7 @@
       "name": "Player 2"
     },
     {
+      "isHuman": false,
       "layingSpeedLevel": 0,
       "layingSpeedMultiplier": 1.0,
       "workers": 0,

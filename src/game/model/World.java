@@ -1,11 +1,8 @@
 package game.model;
 
 import game.main.Config;
-import utilities.FileManager;
 
 import java.io.File;
-import java.io.FilenameFilter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -22,6 +19,7 @@ public class World {
 
     public World(String name) {
         this.name = name;
+        Config.loadConfigFor(name);
     }
 
     public World setStartingPlayers(int startingPlayers) {
@@ -29,18 +27,15 @@ public class World {
         return this;
     }
 
-    public World create() {
+    public World build() {
         if (startingPlayers == 0) {
             startingPlayers = 5;
         }
         for (int i = 0; i < startingPlayers; i++) {
             players.add(new Player("Player " + i));
         }
+        players.add(new Player("FeuFeve").setHuman());
         return this;
-    }
-
-    public void save() {
-        FileManager.saveToJson(this, WORLDS_FOLDER_PATH + name + "/save.json");
     }
 
     private static boolean hasSaveFile(File file) {
@@ -54,5 +49,13 @@ public class World {
             File world = new File(current, name);
             return world.isDirectory() && hasSaveFile(world) && Config.hasValidConfig(world);
         });
+    }
+
+    public boolean hasHumanPlayer(String pseudo) {
+        for (Player player : players) {
+            if (player.name.equals(pseudo) && player.isHuman)
+                return true;
+        }
+        return false;
     }
 }
