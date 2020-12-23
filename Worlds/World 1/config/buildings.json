@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Mushroom chamber",
+    "constructionTimePerLevelMultiplier": 1.6,
+    "costPerLevelMultiplier": 1.85,
+    "productionPerLevelMultiplier": 1.7,
+    "constructionTime": 120,
+    "woodCost": 90,
+    "foodProduction": 122
+  },
+  {
+    "name": "Food warehouse",
+    "constructionTimePerLevelMultiplier": 1.6,
+    "costPerLevelMultiplier": 2,
+    "storagePerLevelMultiplier": 2,
+    "constructionTime": 180,
+    "woodCost": 600,
+    "foodStorage": 2400
+  },
+  {
+    "name": "Wood warehouse",
+    "constructionTimePerLevelMultiplier": 1.6,
+    "costPerLevelMultiplier": 2,
+    "storagePerLevelMultiplier": 2,
+    "constructionTime": 180,
+    "woodCost": 600,
+    "woodStorage": 2400
+  }
+]

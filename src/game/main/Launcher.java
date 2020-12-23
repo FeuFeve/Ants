@@ -1,5 +1,6 @@
 package game.main;
 
+import game.model.World;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.input.KeyCombination;
@@ -15,7 +16,7 @@ public class Launcher extends Application {
         System.out.println("Welcome back!");
 
         SceneManager.init(primaryStage);
-        Config.loadConfig();
+//        Config.loadConfig();
 
         primaryStage.setOnCloseRequest(t -> exit());
         primaryStage.setTitle("Ants");
@@ -41,7 +42,7 @@ public class Launcher extends Application {
     public static void main2(String[] args) {
         System.out.println("Welcome back!");
 
-        Config.loadConfig();
+//        Config.loadConfig();
 
         LocalDateTime ldtNow = Date.getCurrentDatePlus(0);
         System.out.println("ldtNow = " + ldtNow);

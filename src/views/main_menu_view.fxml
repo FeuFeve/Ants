@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <HBox id="background" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuViewController">
    <VBox id="transparent" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" stylesheets="@style.css">
@@ -26,33 +21,31 @@
       </Label>
       <HBox id="invisible" prefWidth="200.0" stylesheets="@style.css">
          <VBox.margin>
-            <Insets top="40.0"/>
+            <Insets top="40.0" />
          </VBox.margin>
-         <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" opacity="0.9" prefWidth="120.0" text="Server"
-                textAlignment="RIGHT" textFill="WHITE">
+         <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" opacity="0.9" prefWidth="120.0" text="World" textAlignment="RIGHT" textFill="WHITE">
             <HBox.margin>
-               <Insets left="25.0" right="25.0"/>
+               <Insets left="25.0" right="25.0" />
             </HBox.margin>
             <font>
-               <Font name="Linux Biolinum G Bold" size="20.0"/>
+               <Font name="Linux Biolinum G Bold" size="20.0" />
             </font>
          </Label>
-         <ComboBox opacity="0.9" prefWidth="300.0"/>
+         <ComboBox fx:id="worldsComboBox" opacity="0.9" prefWidth="300.0" />
       </HBox>
       <HBox id="invisible" prefWidth="200.0" stylesheets="@style.css">
          <VBox.margin>
-            <Insets top="20.0"/>
+            <Insets top="20.0" />
          </VBox.margin>
-         <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" opacity="0.9" prefWidth="120.0" text="Pseudo"
-                textAlignment="RIGHT" textFill="WHITE">
+         <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" opacity="0.9" prefWidth="120.0" text="Pseudo" textAlignment="RIGHT" textFill="WHITE">
             <HBox.margin>
-               <Insets left="25.0" right="25.0"/>
+               <Insets left="25.0" right="25.0" />
             </HBox.margin>
             <font>
-               <Font name="Linux Biolinum G Bold" size="20.0"/>
+               <Font name="Linux Biolinum G Bold" size="20.0" />
             </font>
          </Label>
-         <TextField opacity="0.8" prefWidth="300.0"/>
+         <TextField opacity="0.8" prefWidth="300.0" />
       </HBox>
       <Button mnemonicParsing="false" opacity="0.9" text="Login">
          <VBox.margin>
@@ -67,11 +60,11 @@
       </Button>
       <ImageView fitHeight="30.0" fitWidth="500.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
          <VBox.margin>
-            <Insets top="40.0"/>
+            <Insets top="40.0" />
          </VBox.margin>
-         <Image url="@../images/line-separator.png"/>
+         <Image url="@../images/line-separator.png" />
       </ImageView>
-      <Button mnemonicParsing="false" opacity="0.9" prefWidth="150.0" text="New server">
+      <Button mnemonicParsing="false" opacity="0.9" prefWidth="150.0" text="New world">
          <padding>
             <Insets bottom="3.0" left="40.0" right="40.0" top="3.0" />
          </padding>
@@ -104,7 +97,7 @@
             <Insets top="10.0" />
          </VBox.margin>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.9" prefWidth="150.0" text="Quit" onAction="#exit" textFill="RED">
+      <Button mnemonicParsing="false" onAction="#exit" opacity="0.9" prefWidth="150.0" text="Quit" textFill="RED">
          <padding>
             <Insets bottom="3.0" left="40.0" right="40.0" top="3.0" />
          </padding>
