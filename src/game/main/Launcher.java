@@ -19,10 +19,8 @@ public class Launcher extends Application {
 
         primaryStage.setOnCloseRequest(t -> exit());
         primaryStage.setTitle("Ants");
-//        primaryStage.setMaximized(true);
-//        primaryStage.setFullScreen(true);
-//        primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
-//        primaryStage.setResizable(false);
+        primaryStage.setFullScreen(true);
+        primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 
         SceneManager.loadMainMenuScene();
         primaryStage.show();

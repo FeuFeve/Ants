@@ -8,6 +8,10 @@
     -fx-background-radius: 10;
 }
 
+#invisible {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
 #logo {
     -fx-background-image: url("../images/logo.png");
 }

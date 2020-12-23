@@ -1,5 +1,6 @@
 package controllers;
 
+import game.main.Launcher;
 import javafx.fxml.Initializable;
 import game.main.ControllersManager;
 
@@ -8,11 +9,17 @@ import java.util.ResourceBundle;
 
 public class MainMenuViewController implements Initializable {
 
+
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         System.out.print("Initializing MainMenuViewController...");
         ControllersManager.mainMenuViewController = this;
         System.out.println(" Done.");
+    }
+
+    public void exit() {
+        Launcher.exit();
     }
 
 //    public void newGame() {
