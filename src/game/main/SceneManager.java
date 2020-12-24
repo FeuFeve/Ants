@@ -16,14 +16,16 @@ public class SceneManager {
         SceneManager.window = window;
 
         mainMenuScene = new Scene(FXMLLoader.load(SceneManager.class.getResource("../../views/main_menu_view.fxml")));
-//        gameScene = new Scene(FXMLLoader.load(SceneManager.class.getResource("../views/game_view.fxml")));
+        gameScene = new Scene(FXMLLoader.load(SceneManager.class.getResource("../../views/game_view.fxml")));
     }
 
     public static void loadMainMenuScene() {
         window.setScene(mainMenuScene);
+        window.setFullScreen(true);
     }
 
     public static void loadGameScene() {
         window.setScene(gameScene);
+        window.setFullScreen(true);
     }
 }

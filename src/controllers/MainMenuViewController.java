@@ -42,6 +42,7 @@ public class MainMenuViewController implements Initializable {
         String worldName = GameManager.world.name;
         String pseudo = pseudosComboBox.getValue();
         System.out.println("Opening " + worldName + " as " + pseudo + "...");
+        SceneManager.loadGameScene();
     }
 
     public void exit() {
