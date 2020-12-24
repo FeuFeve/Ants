@@ -51,11 +51,13 @@ public class World {
         });
     }
 
-    public boolean hasHumanPlayer(String pseudo) {
+    public List<String> getHumanPlayerPseudos() {
+        List<String> humanPlayerPseudos = new ArrayList<>();
         for (Player player : players) {
-            if (player.name.equals(pseudo) && player.isHuman)
-                return true;
+            if (player.isHuman) {
+                humanPlayerPseudos.add(player.name);
+            }
         }
-        return false;
+        return humanPlayerPseudos;
     }
 }

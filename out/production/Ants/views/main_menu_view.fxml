@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <HBox id="background" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuViewController">
    <VBox id="transparent" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" stylesheets="@style.css">
@@ -31,7 +35,7 @@
                <Font name="Linux Biolinum G Bold" size="20.0" />
             </font>
          </Label>
-         <ComboBox fx:id="worldsComboBox" opacity="0.9" prefWidth="300.0" />
+         <ComboBox fx:id="worldsComboBox" onAction="#refreshPseudosComboBox" opacity="0.9" prefWidth="300.0" />
       </HBox>
       <HBox id="invisible" prefWidth="200.0" stylesheets="@style.css">
          <VBox.margin>
@@ -45,7 +49,7 @@
                <Font name="Linux Biolinum G Bold" size="20.0" />
             </font>
          </Label>
-         <TextField fx:id="pseudoTextField" opacity="0.8" prefWidth="300.0" />
+         <ComboBox fx:id="pseudosComboBox" opacity="0.9" prefWidth="300.0" />
       </HBox>
       <Button mnemonicParsing="false" onAction="#login" opacity="0.9" text="Login">
          <VBox.margin>
