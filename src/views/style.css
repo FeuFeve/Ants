@@ -15,3 +15,21 @@
 #logo {
     -fx-background-image: url("../images/logo.png");
 }
+
+#menu-bar {
+    -fx-background-color: #525543;
+}
+
+#menu-bar .menu-item {
+    -fx-background-color: #525543;
+}
+
+#menu-bar .label {
+    -fx-background-color: #525543;
+    -fx-text-fill: white;
+}
+
+#main-page {
+    -fx-background: #C9AD63;
+    -fx-background-color: black;
+}

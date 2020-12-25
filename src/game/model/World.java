@@ -38,6 +38,14 @@ public class World {
         return this;
     }
 
+    public Player getPlayer(String pseudo) {
+        for (Player player : players) {
+            if (player.name.equals(pseudo))
+                return player;
+        }
+        return null;
+    }
+
     private static boolean hasSaveFile(File file) {
         List<String> content = Arrays.asList(file.list());
         return content.contains("save.json");
