@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import game.main.ControllersManager;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.ScrollPane;
 import utilities.Date;
 
 import java.net.URL;
@@ -15,15 +16,42 @@ import java.util.ResourceBundle;
 
 public class GameViewController implements Initializable {
 
+    @FXML MenuItem queenMenuItem;
+    @FXML MenuItem armyMenuItem;
+
     @FXML MenuItem logoutMenuItem;
     @FXML MenuItem exitMenuItem;
+
+    @FXML ScrollPane queenPage;
+    @FXML ScrollPane armyPage;
+
+    private static ScrollPane currentPage;
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         System.out.println("Initializing GameViewController...");
         ControllersManager.gameViewController = this;
+        currentPage = queenPage;
         System.out.println(" Done.");
+    }
+
+    public void loadQueenPage() {
+        loadPage(queenPage);
+    }
+
+    public void loadArmyPage() {
+        loadPage(armyPage);
+    }
+
+    private void loadPage(ScrollPane page) {
+        if (currentPage != page) {
+            currentPage.setVisible(false);
+            currentPage.setDisable(true);
+            page.setDisable(false);
+            page.setVisible(true);
+            currentPage = page;
+        }
     }
 
     public void logout() {
