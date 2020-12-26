@@ -19,6 +19,8 @@ public class MainMenuViewController implements Initializable {
     @FXML private ComboBox<String> worldsComboBox;
     @FXML private ComboBox<String> pseudosComboBox;
 
+    private World currentMenuWorld;
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -33,16 +35,17 @@ public class MainMenuViewController implements Initializable {
 
     public void refreshPseudosComboBox() {
         String worldName = worldsComboBox.getValue();
-        GameManager.loadWorld(worldName);
-        List<String> humanPlayerPseudos = GameManager.world.getHumanPlayerPseudos();
+        currentMenuWorld = GameManager.loadWorldIfDifferent(worldName, currentMenuWorld);
+        List<String> humanPlayerPseudos = currentMenuWorld.getHumanPlayerPseudos();
         pseudosComboBox.setItems(FXCollections.observableArrayList(humanPlayerPseudos));
     }
 
     public void login() {
-        String worldName = GameManager.world.name;
+        GameManager.world = currentMenuWorld;
+        String worldName = currentMenuWorld.name;
         String pseudo = pseudosComboBox.getValue();
-        GameManager.currentPlayer = GameManager.world.getPlayer(pseudo);
-        System.out.println("Opening " + worldName + " as " + pseudo + "...");
+        GameManager.currentPlayer = currentMenuWorld.getPlayer(pseudo);
+        System.out.println("Opening " + worldName + " as " + pseudo + ".");
         SceneManager.loadGameScene();
     }
 

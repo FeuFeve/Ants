@@ -9,6 +9,8 @@ import javafx.fxml.Initializable;
 import game.main.ControllersManager;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import utilities.Date;
 
 import java.net.URL;
@@ -25,19 +27,25 @@ public class GameViewController implements Initializable {
     @FXML ScrollPane queenPage;
     @FXML ScrollPane armyPage;
 
+    @FXML VBox queenPageContent;
+    @FXML HBox unitPlaceholder;
+
     private static ScrollPane currentPage;
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        System.out.println("Initializing GameViewController...");
+        System.out.print("Initializing GameViewController...");
+
         ControllersManager.gameViewController = this;
-        currentPage = queenPage;
+
+//        HBox testHbox = new HBox(unitPlaceholder);
+
         System.out.println(" Done.");
     }
 
     public void loadQueenPage() {
-        loadPage(queenPage);
+        loadScrollPage(queenPage, queenPageContent);
     }
 
     public void loadArmyPage() {
@@ -45,7 +53,12 @@ public class GameViewController implements Initializable {
     }
 
     private void loadPage(ScrollPane page) {
-        if (currentPage != page) {
+        if (currentPage == null) {
+            currentPage = page;
+            currentPage.setDisable(false);
+            currentPage.setVisible(true);
+        }
+        else if (currentPage != page) {
             currentPage.setVisible(false);
             currentPage.setDisable(true);
             page.setDisable(false);
@@ -54,14 +67,18 @@ public class GameViewController implements Initializable {
         }
     }
 
+    private void loadScrollPage(ScrollPane page, VBox content) {
+        loadPage(page);
+        content.setPrefWidth(page.getWidth() - 15);
+    }
+
     public void logout() {
-        GameManager.saveWorld();
+        GameManager.saveAndCloseWorld();
         SceneManager.loadMainMenuScene();
-        GameManager.currentPlayer = null;
     }
 
     public void exit() {
-        GameManager.saveWorld();
+        GameManager.saveAndCloseWorld();
         Launcher.exit();
     }
 

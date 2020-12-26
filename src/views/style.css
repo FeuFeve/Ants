@@ -33,3 +33,7 @@
     -fx-background: #C9AD63;
     -fx-background-color: black;
 }
+
+#title {
+    -fx-text-fill: #C5130F;
+}

@@ -27,8 +27,8 @@ public class Launcher extends Application {
     }
 
     public static void exit() {
-        System.out.println("Exiting...");
         GameManager.saveWorld();
+        System.out.println("Exiting.");
         Platform.exit();
         System.exit(0);
     }
