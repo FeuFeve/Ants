@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox fx:id="unitPlaceholder" prefHeight="100.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<HBox fx:id="unitPlaceholder" prefHeight="100.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UnitDetailsController">
     <VBox.margin>
         <Insets bottom="5.0" top="5.0" />
     </VBox.margin>
@@ -25,7 +25,7 @@
         </VBox>
         <VBox prefWidth="400.0">
             <children>
-                <Label id="title" stylesheets="@style.css" text="Name">
+                <Label id="title" fx:id="name" stylesheets="@style.css" text="Name">
                     <font>
                         <Font name="Linux Biolinum G Bold" size="28.0" />
                     </font>

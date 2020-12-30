@@ -27,12 +27,12 @@ public class GameViewController implements Initializable {
     @FXML MenuItem logoutMenuItem;
     @FXML MenuItem exitMenuItem;
 
-    @FXML VBox unitsVBox;
+    @FXML VBox unitsDetailsVBox;
 
     // QUEEN PAGE
     @FXML ScrollPane queenPage;
     @FXML VBox queenPageContent;
-    List<Pair<Unit, HBox>> unitHBoxList = new ArrayList<>();
+    List<Pair<HBox, UnitDetailsController>> unitHBoxList = new ArrayList<>();
 
     // ARMY PAGE
     @FXML ScrollPane armyPage;
@@ -68,8 +68,12 @@ public class GameViewController implements Initializable {
         for (Unit unit : Config.units) {
             loader = new FXMLLoader(getClass().getResource("../views/unit_details.fxml"));
             HBox unitHBox = loader.load();
-            unitHBoxList.add(new Pair<>(unit, unitHBox));
-            unitsVBox.getChildren().add(unitHBox);
+            UnitDetailsController unitDetailsController = loader.getController();
+            
+            unitDetailsController.setUnit(unit);
+            unitHBoxList.add(new Pair<>(unitHBox, unitDetailsController));
+
+            unitsDetailsVBox.getChildren().add(unitHBox);
         }
     }
 
