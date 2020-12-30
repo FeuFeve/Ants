@@ -32,6 +32,6 @@ public class SceneManager {
     public static void loadGameScene() {
         window.setScene(gameScene);
         window.setFullScreen(true);
-        gameViewController.loadQueenPage();
+        gameViewController.load();
     }
 }

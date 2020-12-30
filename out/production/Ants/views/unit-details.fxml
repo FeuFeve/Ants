@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<HBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:id="unitPlaceholder" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: white;">
+    <VBox.margin>
+        <Insets bottom="5.0" top="5.0" />
+    </VBox.margin>
+    <children>
+        <ImageView fitHeight="120.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true" />
+        <VBox alignment="CENTER_LEFT" prefWidth="60.0">
+            <children>
+                <Label text="HP" />
+                <Label text="Attack" />
+                <Label text="Defense" />
+            </children>
+            <HBox.margin>
+                <Insets left="10.0" right="10.0" />
+            </HBox.margin>
+        </VBox>
+        <VBox prefWidth="400.0">
+            <children>
+                <Label id="title" stylesheets="@style.css" text="Name">
+                    <font>
+                        <Font name="Linux Biolinum G Bold" size="28.0" />
+                    </font>
+                </Label>
+                <Label text="Description">
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Required" />
+            </children>
+        </VBox>
+    </children>
+</HBox>

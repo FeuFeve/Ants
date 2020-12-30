@@ -1,19 +1,22 @@
 package controllers;
 
-import game.main.GameManager;
-import game.main.Launcher;
-import game.main.SceneManager;
+import game.main.*;
+import game.model.Unit;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import game.main.ControllersManager;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.util.Pair;
 import utilities.Date;
 
+import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class GameViewController implements Initializable {
@@ -24,11 +27,13 @@ public class GameViewController implements Initializable {
     @FXML MenuItem logoutMenuItem;
     @FXML MenuItem exitMenuItem;
 
+    // QUEEN PAGE
     @FXML ScrollPane queenPage;
-    @FXML ScrollPane armyPage;
-
     @FXML VBox queenPageContent;
-    @FXML HBox unitPlaceholder;
+    List<Pair<Unit, HBox>> unitHBoxList = new ArrayList<>();
+
+    // ARMY PAGE
+    @FXML ScrollPane armyPage;
 
     private static ScrollPane currentPage;
 
@@ -42,6 +47,32 @@ public class GameViewController implements Initializable {
 //        HBox testHbox = new HBox(unitPlaceholder);
 
         System.out.println(" Done.");
+    }
+
+    private void initPagesWithConfig() {
+        System.out.print("Initializing pages with the content of the config files...");
+        // Initialize the pages with the content of the config files
+        try {
+            initQueenPage();
+            // Other page inits...
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println(" Done.");
+    }
+
+    private void initQueenPage() throws IOException {
+        FXMLLoader loader;
+        for (Unit unit : Config.units) {
+            loader = new FXMLLoader(GameViewController.class.getResource("../views/unit-details.fxml"));
+            HBox unitHBox = loader.load();
+            unitHBoxList.add(new Pair<>(unit, unitHBox));
+        }
+    }
+
+    public void load() {
+        initPagesWithConfig();
+        loadQueenPage();
     }
 
     public void loadQueenPage() {
