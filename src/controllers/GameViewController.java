@@ -2,6 +2,10 @@ package controllers;
 
 import game.main.*;
 import game.model.Unit;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,6 +14,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.util.Duration;
 import javafx.util.Pair;
 import utilities.Date;
 
@@ -64,12 +69,14 @@ public class GameViewController implements Initializable {
     }
 
     private void initQueenPage() throws IOException {
+        queenPage.getContent().setOnScroll(scrollEvent -> Animator.slowScroll(queenPage, scrollEvent));
+
         FXMLLoader loader;
         for (Unit unit : Config.units) {
             loader = new FXMLLoader(getClass().getResource("../views/unit_details.fxml"));
             HBox unitHBox = loader.load();
             UnitDetailsController unitDetailsController = loader.getController();
-            
+
             unitDetailsController.setUnit(unit);
             unitHBoxList.add(new Pair<>(unitHBox, unitDetailsController));
 
