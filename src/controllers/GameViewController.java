@@ -27,6 +27,8 @@ public class GameViewController implements Initializable {
     @FXML MenuItem logoutMenuItem;
     @FXML MenuItem exitMenuItem;
 
+    @FXML VBox unitsVBox;
+
     // QUEEN PAGE
     @FXML ScrollPane queenPage;
     @FXML VBox queenPageContent;
@@ -64,9 +66,10 @@ public class GameViewController implements Initializable {
     private void initQueenPage() throws IOException {
         FXMLLoader loader;
         for (Unit unit : Config.units) {
-            loader = new FXMLLoader(GameViewController.class.getResource("../views/unit-details.fxml"));
+            loader = new FXMLLoader(getClass().getResource("../views/unit_details.fxml"));
             HBox unitHBox = loader.load();
             unitHBoxList.add(new Pair<>(unit, unitHBox));
+            unitsVBox.getChildren().add(unitHBox);
         }
     }
 
