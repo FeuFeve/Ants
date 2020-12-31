@@ -10,6 +10,7 @@ import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
@@ -72,6 +73,14 @@ public class GameViewController implements Initializable {
         queenPage.getContent().setOnScroll(scrollEvent -> Animator.slowScroll(queenPage, scrollEvent));
 
         FXMLLoader loader;
+        loader = new FXMLLoader(getClass().getResource("../views/unit_details.fxml"));
+        HBox workerHBox = loader.load();
+        UnitDetailsController workerDetailsController = loader.getController();
+        workerDetailsController.setIsWorker();
+
+        unitsDetailsVBox.getChildren().clear();
+        unitsDetailsVBox.getChildren().add(workerHBox);
+
         for (Unit unit : Config.units) {
             loader = new FXMLLoader(getClass().getResource("../views/unit_details.fxml"));
             HBox unitHBox = loader.load();

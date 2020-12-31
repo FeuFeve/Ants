@@ -9,6 +9,13 @@ public class GameImage {
     private static final String unitImagePath = "file:src/images/units/";
     private static final String imageExtension = ".png";
 
+    public static Image getWorkerImage() {
+        Image image = new Image(unitImagePath + "Worker" + imageExtension);
+        if (image.isError())
+            image = missing;
+        return image;
+    }
+
     public static Image getUnitImage(Unit unit) {
         Image image = new Image(unitImagePath + unit.name + imageExtension);
         if (image.isError())

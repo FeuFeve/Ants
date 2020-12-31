@@ -4,7 +4,6 @@ import game.main.GameImage;
 import game.model.Unit;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class UnitDetailsController {
@@ -14,6 +13,12 @@ public class UnitDetailsController {
 
     public Unit unit;
 
+
+    public void setIsWorker() {
+        this.unit = null;
+        name.setText("Worker");
+        unitImage.setImage(GameImage.getWorkerImage());
+    }
 
     public void setUnit(Unit unit) {
         this.unit = unit;
