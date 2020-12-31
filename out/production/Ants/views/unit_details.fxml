@@ -2,17 +2,21 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox fx:id="unitPlaceholder" prefHeight="100.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UnitDetailsController">
+<HBox id="unit-details" fx:id="unitPlaceholder" prefHeight="100.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UnitDetailsController">
     <VBox.margin>
         <Insets bottom="5.0" top="5.0" />
     </VBox.margin>
     <children>
-        <ImageView fitHeight="120.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="unitImage" fitHeight="120.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/missing.png" />
+         </image></ImageView>
         <VBox alignment="CENTER_LEFT" prefWidth="60.0">
             <children>
                 <Label text="HP" />

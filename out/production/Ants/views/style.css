@@ -34,6 +34,12 @@
     -fx-background-color: black;
 }
 
+#unit-details {
+    -fx-background-color: #D7C384;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
 #title {
     -fx-text-fill: #C5130F;
 }
