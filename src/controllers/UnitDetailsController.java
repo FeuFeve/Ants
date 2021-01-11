@@ -9,20 +9,33 @@ import javafx.scene.image.ImageView;
 public class UnitDetailsController {
 
     @FXML ImageView unitImage;
-    @FXML Label name;
+
+    @FXML Label hpLabel;
+    @FXML Label attackLabel;
+    @FXML Label defenseLabel;
+
+    @FXML Label nameLabel;
+    @FXML Label descriptionLabel;
+    @FXML Label requiredLabel;
 
     public Unit unit;
 
 
     public void setIsWorker() {
         this.unit = null;
-        name.setText("Worker");
         unitImage.setImage(GameImage.getWorkerImage());
+        hpLabel.setText("");
+        attackLabel.setText("");
+        defenseLabel.setText("");
+        nameLabel.setText("Worker");
     }
 
     public void setUnit(Unit unit) {
         this.unit = unit;
-        name.setText(unit.name);
         unitImage.setImage(GameImage.getUnitImage(unit));
+        hpLabel.setText(String.valueOf(unit.hp));
+        attackLabel.setText(String.valueOf(unit.attack));
+        defenseLabel.setText(String.valueOf(unit.defense));
+        nameLabel.setText(unit.name);
     }
 }
