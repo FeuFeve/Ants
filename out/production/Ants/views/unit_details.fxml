@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
-
 <HBox id="unit-details" fx:id="unitPlaceholder" prefHeight="100.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UnitDetailsController">
     <VBox.margin>
         <Insets bottom="5.0" top="5.0" />
@@ -19,9 +17,9 @@
          </image></ImageView>
         <VBox alignment="CENTER_LEFT" prefWidth="60.0">
             <children>
-                <Label text="HP" />
-                <Label text="Attack" />
-                <Label text="Defense" />
+                <Label fx:id="hpLabel" text="HP" />
+                <Label fx:id="attackLabel" text="Attack" />
+                <Label fx:id="defenseLabel" text="Defense" />
             </children>
             <HBox.margin>
                 <Insets left="10.0" right="10.0" />
@@ -29,17 +27,17 @@
         </VBox>
         <VBox prefWidth="400.0">
             <children>
-                <Label id="title" fx:id="name" stylesheets="@style.css" text="Name">
+                <Label id="title" fx:id="nameLabel" stylesheets="@style.css" text="Name">
                     <font>
                         <Font name="Linux Biolinum G Bold" size="28.0" />
                     </font>
                 </Label>
-                <Label text="Description">
+                <Label fx:id="descriptionLabel" text="Description">
                     <VBox.margin>
                         <Insets bottom="5.0" top="5.0" />
                     </VBox.margin>
                 </Label>
-                <Label text="Required" />
+                <Label fx:id="requiredLabel" text="Required" />
             </children>
         </VBox>
     </children>
