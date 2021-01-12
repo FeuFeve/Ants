@@ -42,6 +42,21 @@ public class StringFormatter {
         return String.valueOf(toReturn);
     }
 
+    public static String numberInSecToDuration(double number) {
+        if (number < 60)
+            return smallNumber(number, 2) + "s";
+
+        int days = (int) (number / 86400);
+        int hours = (int) ((number % 86400) / 3600);
+        if (days > 0)
+            return days + "j " + hours + "h";
+        int minutes = (int) ((number % 3600) / 60);
+        if (hours > 0)
+            return hours + "h " + minutes + "m";
+        int seconds = (int) (number % 60);
+        return minutes + "m " + seconds + "s";
+    }
+
     public static String firstLeftSecondRightAlign(int totalLength, String first, String second, boolean sideSpace) {
         if (first.length() + second.length() >= totalLength)
             return first + second;

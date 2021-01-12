@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
+import utilities.NumberFormatter;
 import utilities.StringFormatter;
 
 public class UnitDetailsController {
@@ -33,6 +34,8 @@ public class UnitDetailsController {
 
 
     public void setIsWorker() {
+        GameManager.currentPlayer.layingSpeedLevel = 110;
+        GameManager.currentPlayer.recalculateLayingSpeedMultiplier();
         this.unit = null;
 
         unitImage.setImage(GameImage.getWorkerImage());
@@ -46,9 +49,11 @@ public class UnitDetailsController {
 
         nameLabel.setText("Worker");
 
-        double time = Config.worker.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
-        timeLabel.setText(StringFormatter.smallNumber(time, 2) + "s");
+        double duration = Config.worker.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
+        timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
         foodCostLabel.setText(String.valueOf(Config.worker.foodCost));
+
+        addQueenPageAmountObservable(amountTextField, Config.worker);
     }
 
     public void setUnit(Unit unit) {
@@ -62,8 +67,23 @@ public class UnitDetailsController {
         
         nameLabel.setText(unit.name);
 
-        double time = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
-        timeLabel.setText(StringFormatter.smallNumber(time, 2) + "s");
+        double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
+        timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
         foodCostLabel.setText(String.valueOf(unit.foodCost));
+
+        addQueenPageAmountObservable(amountTextField, unit);
+    }
+
+    private void addQueenPageAmountObservable(TextField textField, Unit unit) {
+        textField.textProperty().addListener((observable, oldValue, newValue) -> {
+            long amount = NumberFormatter.getQuantity(newValue);
+            if (amount == 0)
+                amount = 1;
+
+            double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
+            double amountDuration = duration * amount;
+            timeLabel.setText(StringFormatter.numberInSecToDuration(amountDuration));
+            foodCostLabel.setText(String.valueOf(unit.foodCost));
+        });
     }
 }
