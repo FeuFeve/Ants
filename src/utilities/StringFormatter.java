@@ -46,14 +46,14 @@ public class StringFormatter {
         if (number < 60)
             return smallNumber(number, 2) + "s";
 
-        int days = (int) (number / 86400);
-        int hours = (int) ((number % 86400) / 3600);
+        long days = (long) (number / 86400);
+        long hours = (long) ((number % 86400) / 3600);
         if (days > 0)
             return days + "j " + hours + "h";
-        int minutes = (int) ((number % 3600) / 60);
+        long minutes = (long) ((number % 3600) / 60);
         if (hours > 0)
             return hours + "h " + minutes + "m";
-        int seconds = (int) (number % 60);
+        long seconds = (long) (number % 60);
         return minutes + "m " + seconds + "s";
     }
 

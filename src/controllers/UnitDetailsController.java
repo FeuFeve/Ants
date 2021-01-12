@@ -76,14 +76,13 @@ public class UnitDetailsController {
 
     private void addQueenPageAmountObservable(TextField textField, Unit unit) {
         textField.textProperty().addListener((observable, oldValue, newValue) -> {
-            long amount = NumberFormatter.getQuantity(newValue);
+            long amount = NumberFormatter.getQuantityInLong(newValue);
             if (amount == 0)
                 amount = 1;
 
-            double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
-            double amountDuration = duration * amount;
-            timeLabel.setText(StringFormatter.numberInSecToDuration(amountDuration));
-            foodCostLabel.setText(String.valueOf(unit.foodCost));
+            double oneUnitDuration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
+            timeLabel.setText(StringFormatter.numberInSecToDuration(oneUnitDuration * amount));
+            foodCostLabel.setText(NumberFormatter.getQuantityInString(amount * unit.foodCost));
         });
     }
 }

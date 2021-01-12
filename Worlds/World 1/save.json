@@ -4,8 +4,8 @@
   "players": [
     {
       "isHuman": true,
-      "layingSpeedLevel": 0,
-      "layingSpeedMultiplier": 1.0,
+      "layingSpeedLevel": 110,
+      "layingSpeedMultiplier": 9.261387130997901E-6,
       "workers": 0,
       "food": 0,
       "wood": 0,

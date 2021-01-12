@@ -2,7 +2,14 @@ package utilities;
 
 public class NumberFormatter {
 
-    public static long getQuantity(String number) {
+    /*
+     * Exemples:
+     * Input: "100"     | Output: 100
+     * Input: "100m"    | Output: 100_000_000
+     * Input: ""        | Output: 0
+     * Input: "100mm"   | Output: 0
+     */
+    public static long getQuantityInLong(String number) {
         long quantity;
         if (number.isEmpty())
             return 0;
@@ -37,5 +44,16 @@ public class NumberFormatter {
                 return 0;
             }
         }
+    }
+
+    public static String getQuantityInString(long number) {
+        long g = number / 1_000_000_000;
+        long m = (number % 1_000_000_000) / 1_000_000;
+        if (g > 0)
+            return g + "." + m + "G";
+        long k = (number % 1_000_000) / 1000;
+        if  (m > 0)
+            return m + "." + k + "M";
+        return StringFormatter.bigNumber(number);
     }
 }
