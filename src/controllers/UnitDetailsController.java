@@ -34,8 +34,6 @@ public class UnitDetailsController {
 
 
     public void setIsWorker() {
-        GameManager.currentPlayer.layingSpeedLevel = 110;
-        GameManager.currentPlayer.recalculateLayingSpeedMultiplier();
         this.unit = null;
 
         unitImage.setImage(GameImage.getWorkerImage());
