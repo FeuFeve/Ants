@@ -15,6 +15,33 @@ public class StringFormatter {
         return formatter.format(number);
     }
 
+    public static String smallNumber(double number, int significantDigits) {
+        if (number > 10)
+            return String.valueOf(Math.round(number));
+        if (number > 1)
+            return String.valueOf(Math.round(number * (significantDigits - 1)) * (significantDigits - 1));
+
+        StringBuilder toReturn = new StringBuilder("0.");
+        int foundDigits = 0;
+        while (foundDigits < significantDigits) {
+            number *= 10;
+            if (number > 1) {
+                foundDigits++;
+                if (foundDigits == significantDigits)
+                    toReturn.append(Math.round(number));
+                else {
+                    int digit = (int) number;
+                    toReturn.append(digit);
+                    number -= digit;
+                }
+            }
+            else {
+                toReturn.append("0");
+            }
+        }
+        return String.valueOf(toReturn);
+    }
+
     public static String firstLeftSecondRightAlign(int totalLength, String first, String second, boolean sideSpace) {
         if (first.length() + second.length() >= totalLength)
             return first + second;

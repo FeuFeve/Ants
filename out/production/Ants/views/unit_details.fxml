@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
@@ -81,5 +82,48 @@
                 <Label fx:id="requiredLabel" text="Required" />
             </children>
         </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="4.0" VBox.vgrow="NEVER">
+               <children>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons/ant.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="amountTextField" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="18.0" text="1" />
+               </children>
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="4.0">
+               <children>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons/hourglass.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="timeLabel" text="Time" />
+               </children>
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="4.0">
+               <children>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons/food.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="foodCostLabel" text="Food cost" />
+               </children>
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
     </children>
 </HBox>
