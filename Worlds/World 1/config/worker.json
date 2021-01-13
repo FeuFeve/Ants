@@ -1,7 +1,7 @@
 {
 	"name": "Worker",
 	"pluralName": "Workers",
-    "description": "",
+    "description": "The worker is the basic unit of the anthill. It collects food and materials.",
 	"layingTime": 60,
 	"foodCost": 5
 }

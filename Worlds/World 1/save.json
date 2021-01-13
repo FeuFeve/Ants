@@ -29,7 +29,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -44,7 +44,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -58,7 +58,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -73,7 +73,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -88,7 +88,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -103,7 +103,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -117,7 +117,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -132,7 +132,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -146,7 +146,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -160,7 +160,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -175,7 +175,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -189,7 +189,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -204,7 +204,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -218,7 +218,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -235,7 +235,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -250,7 +250,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -264,7 +264,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -279,7 +279,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -294,7 +294,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -309,7 +309,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -323,7 +323,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -338,7 +338,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -352,7 +352,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -366,7 +366,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -381,7 +381,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -395,7 +395,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -410,7 +410,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -424,7 +424,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -441,7 +441,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -456,7 +456,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -470,7 +470,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -485,7 +485,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -500,7 +500,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -515,7 +515,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -529,7 +529,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -544,7 +544,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -558,7 +558,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -572,7 +572,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -587,7 +587,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -601,7 +601,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -616,7 +616,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -630,7 +630,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -665,7 +665,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -680,7 +680,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -694,7 +694,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -709,7 +709,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -724,7 +724,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -739,7 +739,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -753,7 +753,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -768,7 +768,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -782,7 +782,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -796,7 +796,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -811,7 +811,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -825,7 +825,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -840,7 +840,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -854,7 +854,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -871,7 +871,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -886,7 +886,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -900,7 +900,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -915,7 +915,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -930,7 +930,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -945,7 +945,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -959,7 +959,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -974,7 +974,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -988,7 +988,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -1002,7 +1002,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -1017,7 +1017,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -1031,7 +1031,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -1046,7 +1046,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -1060,7 +1060,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -1077,7 +1077,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -1092,7 +1092,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -1106,7 +1106,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -1121,7 +1121,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -1136,7 +1136,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -1151,7 +1151,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -1165,7 +1165,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -1180,7 +1180,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -1194,7 +1194,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -1208,7 +1208,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -1223,7 +1223,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -1237,7 +1237,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -1252,7 +1252,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -1266,7 +1266,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -1301,7 +1301,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -1316,7 +1316,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -1330,7 +1330,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -1345,7 +1345,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -1360,7 +1360,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -1375,7 +1375,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -1389,7 +1389,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -1404,7 +1404,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -1418,7 +1418,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -1432,7 +1432,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -1447,7 +1447,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -1461,7 +1461,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -1476,7 +1476,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -1490,7 +1490,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -1507,7 +1507,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -1522,7 +1522,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -1536,7 +1536,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -1551,7 +1551,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -1566,7 +1566,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -1581,7 +1581,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -1595,7 +1595,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -1610,7 +1610,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -1624,7 +1624,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -1638,7 +1638,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -1653,7 +1653,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -1667,7 +1667,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -1682,7 +1682,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -1696,7 +1696,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -1713,7 +1713,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -1728,7 +1728,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -1742,7 +1742,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -1757,7 +1757,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -1772,7 +1772,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -1787,7 +1787,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -1801,7 +1801,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -1816,7 +1816,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -1830,7 +1830,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -1844,7 +1844,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -1859,7 +1859,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -1873,7 +1873,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -1888,7 +1888,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -1902,7 +1902,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -1937,7 +1937,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -1952,7 +1952,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -1966,7 +1966,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -1981,7 +1981,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -1996,7 +1996,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -2011,7 +2011,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -2025,7 +2025,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -2040,7 +2040,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -2054,7 +2054,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -2068,7 +2068,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -2083,7 +2083,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -2097,7 +2097,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -2112,7 +2112,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -2126,7 +2126,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -2143,7 +2143,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -2158,7 +2158,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -2172,7 +2172,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -2187,7 +2187,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -2202,7 +2202,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -2217,7 +2217,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -2231,7 +2231,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -2246,7 +2246,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -2260,7 +2260,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -2274,7 +2274,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -2289,7 +2289,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -2303,7 +2303,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -2318,7 +2318,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -2332,7 +2332,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -2349,7 +2349,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -2364,7 +2364,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -2378,7 +2378,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -2393,7 +2393,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -2408,7 +2408,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -2423,7 +2423,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -2437,7 +2437,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -2452,7 +2452,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -2466,7 +2466,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -2480,7 +2480,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -2495,7 +2495,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -2509,7 +2509,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -2524,7 +2524,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -2538,7 +2538,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -2573,7 +2573,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -2588,7 +2588,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -2602,7 +2602,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -2617,7 +2617,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -2632,7 +2632,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -2647,7 +2647,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -2661,7 +2661,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -2676,7 +2676,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -2690,7 +2690,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -2704,7 +2704,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -2719,7 +2719,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -2733,7 +2733,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -2748,7 +2748,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -2762,7 +2762,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -2779,7 +2779,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -2794,7 +2794,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -2808,7 +2808,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -2823,7 +2823,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -2838,7 +2838,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -2853,7 +2853,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -2867,7 +2867,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -2882,7 +2882,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -2896,7 +2896,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -2910,7 +2910,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -2925,7 +2925,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -2939,7 +2939,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -2954,7 +2954,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -2968,7 +2968,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }
@@ -2985,7 +2985,7 @@
             "xpInto": "Dwarf",
             "xpValue": 85,
             "name": "Young dwarf",
-            "description": ""
+            "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail."
           },
           "value": 0
         },
@@ -3000,7 +3000,7 @@
             "xpInto": "Top dwarf",
             "xpValue": 125,
             "name": "Dwarf",
-            "description": ""
+            "description": "Small but fierce, these warriors have proven their value in combat, more than once."
           },
           "value": 0
         },
@@ -3014,7 +3014,7 @@
             "foodCost": 26,
             "xpValue": 170,
             "name": "Top dwarf",
-            "description": ""
+            "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training."
           },
           "value": 0
         },
@@ -3029,7 +3029,7 @@
             "xpInto": "Soldier",
             "xpValue": 227,
             "name": "Young soldier",
-            "description": ""
+            "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength."
           },
           "value": 0
         },
@@ -3044,7 +3044,7 @@
             "xpInto": "Top soldier",
             "xpValue": 312,
             "name": "Soldier",
-            "description": ""
+            "description": "The Soldier is the foundation of any army. Its body is a weapon of war."
           },
           "value": 0
         },
@@ -3059,7 +3059,7 @@
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
             "name": "Doorkeeper",
-            "description": ""
+            "description": "The Doorkeeper\u0027s big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense."
           },
           "value": 0
         },
@@ -3073,7 +3073,7 @@
             "foodCost": 105,
             "xpValue": 592,
             "name": "Top doorkeeper",
-            "description": ""
+            "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing."
           },
           "value": 0
         },
@@ -3088,7 +3088,7 @@
             "xpInto": "Top fire ant",
             "xpValue": 295,
             "name": "Fire ant",
-            "description": ""
+            "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety."
           },
           "value": 0
         },
@@ -3102,7 +3102,7 @@
             "foodCost": 34,
             "xpValue": 349,
             "name": "Top fire ant",
-            "description": ""
+            "description": "The elite of the Fire Ants. They blow anything that moves to pieces."
           },
           "value": 0
         },
@@ -3116,7 +3116,7 @@
             "foodCost": 44,
             "xpValue": 460,
             "name": "Top soldier",
-            "description": ""
+            "description": "The elite of the Soldiers. They are sturdy, fast, and lethal."
           },
           "value": 0
         },
@@ -3131,7 +3131,7 @@
             "xpInto": "Top tank",
             "xpValue": 642,
             "name": "Tank",
-            "description": ""
+            "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend."
           },
           "value": 0
         },
@@ -3145,7 +3145,7 @@
             "foodCost": 150,
             "xpValue": 990,
             "name": "Top tank",
-            "description": ""
+            "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre..."
           },
           "value": 0
         },
@@ -3160,7 +3160,7 @@
             "xpInto": "Top killer",
             "xpValue": 909,
             "name": "Killer",
-            "description": ""
+            "description": "These ants are equipped with a poisoned dart. A target hit is a target dead."
           },
           "value": 0
         },
@@ -3174,7 +3174,7 @@
             "foodCost": 90,
             "xpValue": 1000,
             "name": "Top killer",
-            "description": ""
+            "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence."
           },
           "value": 0
         }

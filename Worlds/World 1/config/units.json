@@ -2,7 +2,7 @@
   {
     "name": "Young dwarf",
     "pluralName": "Young dwarves",
-    "description": "",
+    "description": "Young, small and inexperienced, these soldiers use their great numbers to prevail.",
     "hp": 8,
     "attack": 3,
     "defense": 2,
@@ -14,7 +14,7 @@
   {
     "name": "Dwarf",
     "pluralName": "Dwarves",
-    "description": "",
+    "description": "Small but fierce, these warriors have proven their value in combat, more than once.",
     "hp": 10,
     "attack": 5,
     "defense": 4,
@@ -26,7 +26,7 @@
   {
     "name": "Top dwarf",
     "pluralName": "Top dwarves",
-    "description": "",
+    "description": "Top Dwarves are the elite of the Dwarf soldiers. They are excellent fighters because of their hard training.",
     "hp": 13,
     "attack": 7,
     "defense": 6,
@@ -37,7 +37,7 @@
   {
     "name": "Young soldier",
     "pluralName": "Young soldiers",
-    "description": "",
+    "description": "Young and inexperienced, Young Soldiers have a great advantage because of their size, which gives them great strength.",
     "hp": 16,
     "attack": 10,
     "defense": 9,
@@ -49,7 +49,7 @@
   {
     "name": "Soldier",
     "pluralName": "Soldiers",
-    "description": "",
+    "description": "The Soldier is the foundation of any army. Its body is a weapon of war.",
     "hp": 20,
     "attack": 15,
     "defense": 14,
@@ -61,7 +61,7 @@
   {
     "name": "Doorkeeper",
     "pluralName": "Doorkeepers",
-    "description": "",
+    "description": "The Doorkeeper's big head is able to seal off the passage to the nest. They are great defenders, but their atrophied legs make them useless at offense.",
     "hp": 30,
     "attack": 1,
     "defense": 25,
@@ -73,7 +73,7 @@
   {
     "name": "Top doorkeeper",
     "pluralName": "Top doorkeepers",
-    "description": "",
+    "description": "One tells that after fighting days and nights, the best doorkeepers make their nest impregnable. These excellent defenders completely block the entrance to the nest with their huge flat heads. The enemy has no chance of passing.",
     "hp": 40,
     "attack": 1,
     "defense": 35,
@@ -84,7 +84,7 @@
   {
     "name": "Fire ant",
     "pluralName": "Fire ants",
-    "description": "",
+    "description": "Fire Ants can spray formic acid amongst opponents, causing them to melt. Their attacks are usually lethal. They attack from behind the front line for safety.",
     "hp": 10,
     "attack": 30,
     "defense": 15,
@@ -96,7 +96,7 @@
   {
     "name": "Top fire ant",
     "pluralName": "Top fire ants",
-    "description": "",
+    "description": "The elite of the Fire Ants. They blow anything that moves to pieces.",
     "hp": 12,
     "attack": 35,
     "defense": 18,
@@ -107,7 +107,7 @@
   {
     "name": "Top soldier",
     "pluralName": "Top soldiers",
-    "description": "",
+    "description": "The elite of the Soldiers. They are sturdy, fast, and lethal.",
     "hp": 27,
     "attack": 24,
     "defense": 23,
@@ -118,7 +118,7 @@
   {
     "name": "Tank",
     "pluralName": "Tanks",
-    "description": "",
+    "description": "Tanks are as original a concept as they are devastating. It is actually one giant ant supported by 4 smaller ants. They charge into the enemy ranks causing extensive damage. However, they are utterly ineffective to defend.",
     "hp": 35,
     "attack": 55,
     "defense": 1,
@@ -130,7 +130,7 @@
   {
     "name": "Top tank",
     "pluralName": "Top tanks",
-    "description": "",
+    "description": "Legend tells that after many fights, the most powerful tanks can enter to the elite. These exceptional ants no more fight, they massacre...",
     "hp": 50,
     "attack": 80,
     "defense": 1,
@@ -141,7 +141,7 @@
   {
     "name": "Killer",
     "pluralName": "Killers",
-    "description": "",
+    "description": "These ants are equipped with a poisoned dart. A target hit is a target dead.",
     "hp": 50,
     "attack": 50,
     "defense": 50,
@@ -153,7 +153,7 @@
   {
     "name": "Top killer",
     "pluralName": "Top killers",
-    "description": "",
+    "description": "The Elite of the Killers. Fact or fiction? They leave no survivors to bear witness of their existence.",
     "hp": 55,
     "attack": 55,
     "defense": 55,
