@@ -46,6 +46,7 @@ public class UnitDetailsController {
         defenseLabel.setText("");
 
         nameLabel.setText("Worker");
+        descriptionLabel.setText(Config.worker.description);
 
         double duration = Config.worker.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
         timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
@@ -64,6 +65,7 @@ public class UnitDetailsController {
         defenseLabel.setText(String.valueOf(unit.defense));
         
         nameLabel.setText(unit.name);
+        descriptionLabel.setText(unit.description);
 
         double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
         timeLabel.setText(StringFormatter.numberInSecToDuration(duration));

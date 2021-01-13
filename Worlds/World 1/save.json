@@ -28,7 +28,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -42,7 +43,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -55,7 +57,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -69,7 +72,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -83,7 +87,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -97,7 +102,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -110,7 +116,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -124,7 +131,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -137,7 +145,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -150,7 +159,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -164,7 +174,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -177,7 +188,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -191,7 +203,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -204,7 +217,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -220,7 +234,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -234,7 +249,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -247,7 +263,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -261,7 +278,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -275,7 +293,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -289,7 +308,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -302,7 +322,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -316,7 +337,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -329,7 +351,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -342,7 +365,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -356,7 +380,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -369,7 +394,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -383,7 +409,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -396,7 +423,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -412,7 +440,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -426,7 +455,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -439,7 +469,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -453,7 +484,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -467,7 +499,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -481,7 +514,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -494,7 +528,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -508,7 +543,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -521,7 +557,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -534,7 +571,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -548,7 +586,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -561,7 +600,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -575,7 +615,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -588,7 +629,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -622,7 +664,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -636,7 +679,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -649,7 +693,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -663,7 +708,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -677,7 +723,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -691,7 +738,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -704,7 +752,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -718,7 +767,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -731,7 +781,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -744,7 +795,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -758,7 +810,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -771,7 +824,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -785,7 +839,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -798,7 +853,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -814,7 +870,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -828,7 +885,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -841,7 +899,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -855,7 +914,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -869,7 +929,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -883,7 +944,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -896,7 +958,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -910,7 +973,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -923,7 +987,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -936,7 +1001,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -950,7 +1016,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -963,7 +1030,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -977,7 +1045,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -990,7 +1059,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -1006,7 +1076,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1020,7 +1091,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1033,7 +1105,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1047,7 +1120,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1061,7 +1135,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1075,7 +1150,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1088,7 +1164,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1102,7 +1179,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1115,7 +1193,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1128,7 +1207,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1142,7 +1222,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1155,7 +1236,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1169,7 +1251,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -1182,7 +1265,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -1216,7 +1300,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1230,7 +1315,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1243,7 +1329,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1257,7 +1344,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1271,7 +1359,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1285,7 +1374,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1298,7 +1388,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1312,7 +1403,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1325,7 +1417,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1338,7 +1431,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1352,7 +1446,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1365,7 +1460,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1379,7 +1475,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -1392,7 +1489,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -1408,7 +1506,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1422,7 +1521,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1435,7 +1535,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1449,7 +1550,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1463,7 +1565,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1477,7 +1580,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1490,7 +1594,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1504,7 +1609,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1517,7 +1623,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1530,7 +1637,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1544,7 +1652,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1557,7 +1666,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1571,7 +1681,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -1584,7 +1695,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -1600,7 +1712,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1614,7 +1727,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1627,7 +1741,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1641,7 +1756,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1655,7 +1771,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1669,7 +1786,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1682,7 +1800,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1696,7 +1815,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1709,7 +1829,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1722,7 +1843,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1736,7 +1858,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1749,7 +1872,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1763,7 +1887,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -1776,7 +1901,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -1810,7 +1936,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1824,7 +1951,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1837,7 +1965,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -1851,7 +1980,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1865,7 +1995,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1879,7 +2010,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1892,7 +2024,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -1906,7 +2039,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1919,7 +2053,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -1932,7 +2067,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -1946,7 +2082,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1959,7 +2096,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -1973,7 +2111,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -1986,7 +2125,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -2002,7 +2142,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2016,7 +2157,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2029,7 +2171,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2043,7 +2186,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2057,7 +2201,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2071,7 +2216,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2084,7 +2230,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2098,7 +2245,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2111,7 +2259,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2124,7 +2273,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2138,7 +2288,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2151,7 +2302,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2165,7 +2317,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -2178,7 +2331,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -2194,7 +2348,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2208,7 +2363,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2221,7 +2377,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2235,7 +2392,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2249,7 +2407,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2263,7 +2422,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2276,7 +2436,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2290,7 +2451,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2303,7 +2465,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2316,7 +2479,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2330,7 +2494,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2343,7 +2508,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2357,7 +2523,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -2370,7 +2537,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -2404,7 +2572,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2418,7 +2587,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2431,7 +2601,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2445,7 +2616,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2459,7 +2631,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2473,7 +2646,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2486,7 +2660,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2500,7 +2675,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2513,7 +2689,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2526,7 +2703,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2540,7 +2718,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2553,7 +2732,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2567,7 +2747,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -2580,7 +2761,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -2596,7 +2778,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2610,7 +2793,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2623,7 +2807,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2637,7 +2822,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2651,7 +2837,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2665,7 +2852,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2678,7 +2866,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2692,7 +2881,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2705,7 +2895,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2718,7 +2909,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2732,7 +2924,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2745,7 +2938,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2759,7 +2953,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -2772,7 +2967,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }
@@ -2788,7 +2984,8 @@
             "foodCost": 16,
             "xpInto": "Dwarf",
             "xpValue": 85,
-            "name": "Young dwarf"
+            "name": "Young dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2802,7 +2999,8 @@
             "foodCost": 20,
             "xpInto": "Top dwarf",
             "xpValue": 125,
-            "name": "Dwarf"
+            "name": "Dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2815,7 +3013,8 @@
             "layingTime": 574,
             "foodCost": 26,
             "xpValue": 170,
-            "name": "Top dwarf"
+            "name": "Top dwarf",
+            "description": ""
           },
           "value": 0
         },
@@ -2829,7 +3028,8 @@
             "foodCost": 30,
             "xpInto": "Soldier",
             "xpValue": 227,
-            "name": "Young soldier"
+            "name": "Young soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2843,7 +3043,8 @@
             "foodCost": 36,
             "xpInto": "Top soldier",
             "xpValue": 312,
-            "name": "Soldier"
+            "name": "Soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2857,7 +3058,8 @@
             "foodCost": 70,
             "xpInto": "Top doorkeeper",
             "xpValue": 434,
-            "name": "Doorkeeper"
+            "name": "Doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2870,7 +3072,8 @@
             "layingTime": 1410,
             "foodCost": 105,
             "xpValue": 592,
-            "name": "Top doorkeeper"
+            "name": "Top doorkeeper",
+            "description": ""
           },
           "value": 0
         },
@@ -2884,7 +3087,8 @@
             "foodCost": 30,
             "xpInto": "Top fire ant",
             "xpValue": 295,
-            "name": "Fire ant"
+            "name": "Fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2897,7 +3101,8 @@
             "layingTime": 1520,
             "foodCost": 34,
             "xpValue": 349,
-            "name": "Top fire ant"
+            "name": "Top fire ant",
+            "description": ""
           },
           "value": 0
         },
@@ -2910,7 +3115,8 @@
             "layingTime": 1450,
             "foodCost": 44,
             "xpValue": 460,
-            "name": "Top soldier"
+            "name": "Top soldier",
+            "description": ""
           },
           "value": 0
         },
@@ -2924,7 +3130,8 @@
             "foodCost": 100,
             "xpInto": "Top tank",
             "xpValue": 642,
-            "name": "Tank"
+            "name": "Tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2937,7 +3144,8 @@
             "layingTime": 1860,
             "foodCost": 150,
             "xpValue": 990,
-            "name": "Top tank"
+            "name": "Top tank",
+            "description": ""
           },
           "value": 0
         },
@@ -2951,7 +3159,8 @@
             "foodCost": 80,
             "xpInto": "Top killer",
             "xpValue": 909,
-            "name": "Killer"
+            "name": "Killer",
+            "description": ""
           },
           "value": 0
         },
@@ -2964,7 +3173,8 @@
             "layingTime": 2740,
             "foodCost": 90,
             "xpValue": 1000,
-            "name": "Top killer"
+            "name": "Top killer",
+            "description": ""
           },
           "value": 0
         }

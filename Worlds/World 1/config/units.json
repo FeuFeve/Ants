@@ -2,6 +2,7 @@
   {
     "name": "Young dwarf",
     "pluralName": "Young dwarves",
+    "description": "",
     "hp": 8,
     "attack": 3,
     "defense": 2,
@@ -13,6 +14,7 @@
   {
     "name": "Dwarf",
     "pluralName": "Dwarves",
+    "description": "",
     "hp": 10,
     "attack": 5,
     "defense": 4,
@@ -24,6 +26,7 @@
   {
     "name": "Top dwarf",
     "pluralName": "Top dwarves",
+    "description": "",
     "hp": 13,
     "attack": 7,
     "defense": 6,
@@ -34,6 +37,7 @@
   {
     "name": "Young soldier",
     "pluralName": "Young soldiers",
+    "description": "",
     "hp": 16,
     "attack": 10,
     "defense": 9,
@@ -45,6 +49,7 @@
   {
     "name": "Soldier",
     "pluralName": "Soldiers",
+    "description": "",
     "hp": 20,
     "attack": 15,
     "defense": 14,
@@ -56,6 +61,7 @@
   {
     "name": "Doorkeeper",
     "pluralName": "Doorkeepers",
+    "description": "",
     "hp": 30,
     "attack": 1,
     "defense": 25,
@@ -67,6 +73,7 @@
   {
     "name": "Top doorkeeper",
     "pluralName": "Top doorkeepers",
+    "description": "",
     "hp": 40,
     "attack": 1,
     "defense": 35,
@@ -77,6 +84,7 @@
   {
     "name": "Fire ant",
     "pluralName": "Fire ants",
+    "description": "",
     "hp": 10,
     "attack": 30,
     "defense": 15,
@@ -88,6 +96,7 @@
   {
     "name": "Top fire ant",
     "pluralName": "Top fire ants",
+    "description": "",
     "hp": 12,
     "attack": 35,
     "defense": 18,
@@ -98,6 +107,7 @@
   {
     "name": "Top soldier",
     "pluralName": "Top soldiers",
+    "description": "",
     "hp": 27,
     "attack": 24,
     "defense": 23,
@@ -108,6 +118,7 @@
   {
     "name": "Tank",
     "pluralName": "Tanks",
+    "description": "",
     "hp": 35,
     "attack": 55,
     "defense": 1,
@@ -119,6 +130,7 @@
   {
     "name": "Top tank",
     "pluralName": "Top tanks",
+    "description": "",
     "hp": 50,
     "attack": 80,
     "defense": 1,
@@ -129,6 +141,7 @@
   {
     "name": "Killer",
     "pluralName": "Killers",
+    "description": "",
     "hp": 50,
     "attack": 50,
     "defense": 50,
@@ -140,6 +153,7 @@
   {
     "name": "Top killer",
     "pluralName": "Top killers",
+    "description": "",
     "hp": 55,
     "attack": 55,
     "defense": 55,

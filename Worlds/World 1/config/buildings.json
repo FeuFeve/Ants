@@ -1,6 +1,7 @@
 [
   {
     "name": "Mushroom chamber",
+    "description": "",
     "constructionTimePerLevelMultiplier": 1.6,
     "costPerLevelMultiplier": 1.85,
     "productionPerLevelMultiplier": 1.7,
@@ -10,6 +11,7 @@
   },
   {
     "name": "Food warehouse",
+    "description": "",
     "constructionTimePerLevelMultiplier": 1.6,
     "costPerLevelMultiplier": 2,
     "storagePerLevelMultiplier": 2,
@@ -19,6 +21,7 @@
   },
   {
     "name": "Wood warehouse",
+    "description": "",
     "constructionTimePerLevelMultiplier": 1.6,
     "costPerLevelMultiplier": 2,
     "storagePerLevelMultiplier": 2,
