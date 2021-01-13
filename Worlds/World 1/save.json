@@ -21,6 +21,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -36,6 +37,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -51,6 +53,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -65,6 +68,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -80,6 +84,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -95,6 +100,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -110,6 +116,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -124,6 +131,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -139,6 +147,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -153,6 +162,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -167,6 +177,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -182,6 +193,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -196,6 +208,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -211,6 +224,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -227,6 +241,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -242,6 +257,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -257,6 +273,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -271,6 +288,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -286,6 +304,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -301,6 +320,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -316,6 +336,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -330,6 +351,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -345,6 +367,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -359,6 +382,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -373,6 +397,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -388,6 +413,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -402,6 +428,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -417,6 +444,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -433,6 +461,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -448,6 +477,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -463,6 +493,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -477,6 +508,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -492,6 +524,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -507,6 +540,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -522,6 +556,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -536,6 +571,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -551,6 +587,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -565,6 +602,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -579,6 +617,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -594,6 +633,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -608,6 +648,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -623,6 +664,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -657,6 +699,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -672,6 +715,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -687,6 +731,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -701,6 +746,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -716,6 +762,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -731,6 +778,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -746,6 +794,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -760,6 +809,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -775,6 +825,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -789,6 +840,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -803,6 +855,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -818,6 +871,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -832,6 +886,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -847,6 +902,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -863,6 +919,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -878,6 +935,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -893,6 +951,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -907,6 +966,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -922,6 +982,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -937,6 +998,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -952,6 +1014,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -966,6 +1029,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -981,6 +1045,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -995,6 +1060,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -1009,6 +1075,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -1024,6 +1091,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -1038,6 +1106,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -1053,6 +1122,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -1069,6 +1139,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -1084,6 +1155,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -1099,6 +1171,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -1113,6 +1186,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -1128,6 +1202,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -1143,6 +1218,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -1158,6 +1234,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -1172,6 +1249,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -1187,6 +1265,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -1201,6 +1280,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -1215,6 +1295,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -1230,6 +1311,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -1244,6 +1326,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -1259,6 +1342,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -1293,6 +1377,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -1308,6 +1393,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -1323,6 +1409,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -1337,6 +1424,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -1352,6 +1440,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -1367,6 +1456,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -1382,6 +1472,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -1396,6 +1487,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -1411,6 +1503,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -1425,6 +1518,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -1439,6 +1533,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -1454,6 +1549,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -1468,6 +1564,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -1483,6 +1580,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -1499,6 +1597,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -1514,6 +1613,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -1529,6 +1629,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -1543,6 +1644,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -1558,6 +1660,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -1573,6 +1676,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -1588,6 +1692,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -1602,6 +1707,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -1617,6 +1723,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -1631,6 +1738,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -1645,6 +1753,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -1660,6 +1769,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -1674,6 +1784,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -1689,6 +1800,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -1705,6 +1817,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -1720,6 +1833,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -1735,6 +1849,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -1749,6 +1864,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -1764,6 +1880,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -1779,6 +1896,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -1794,6 +1912,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -1808,6 +1927,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -1823,6 +1943,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -1837,6 +1958,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -1851,6 +1973,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -1866,6 +1989,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -1880,6 +2004,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -1895,6 +2020,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -1929,6 +2055,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -1944,6 +2071,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -1959,6 +2087,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -1973,6 +2102,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -1988,6 +2118,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -2003,6 +2134,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -2018,6 +2150,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -2032,6 +2165,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -2047,6 +2181,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -2061,6 +2196,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -2075,6 +2211,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -2090,6 +2227,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -2104,6 +2242,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -2119,6 +2258,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -2135,6 +2275,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -2150,6 +2291,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -2165,6 +2307,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -2179,6 +2322,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -2194,6 +2338,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -2209,6 +2354,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -2224,6 +2370,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -2238,6 +2385,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -2253,6 +2401,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -2267,6 +2416,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -2281,6 +2431,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -2296,6 +2447,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -2310,6 +2462,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -2325,6 +2478,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -2341,6 +2495,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -2356,6 +2511,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -2371,6 +2527,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -2385,6 +2542,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -2400,6 +2558,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -2415,6 +2574,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -2430,6 +2590,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -2444,6 +2605,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -2459,6 +2621,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -2473,6 +2636,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -2487,6 +2651,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -2502,6 +2667,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -2516,6 +2682,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -2531,6 +2698,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -2565,6 +2733,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -2580,6 +2749,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -2595,6 +2765,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -2609,6 +2780,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -2624,6 +2796,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -2639,6 +2812,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -2654,6 +2828,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -2668,6 +2843,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -2683,6 +2859,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -2697,6 +2874,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -2711,6 +2889,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -2726,6 +2905,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -2740,6 +2920,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -2755,6 +2936,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -2771,6 +2953,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -2786,6 +2969,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -2801,6 +2985,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -2815,6 +3000,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -2830,6 +3016,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -2845,6 +3032,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -2860,6 +3048,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -2874,6 +3063,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -2889,6 +3079,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -2903,6 +3094,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -2917,6 +3109,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -2932,6 +3125,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -2946,6 +3140,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -2961,6 +3156,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,
@@ -2977,6 +3173,7 @@
         {
           "key": {
             "pluralName": "Young dwarves",
+            "isLayable": true,
             "hp": 8,
             "attack": 3,
             "defense": 2,
@@ -2992,6 +3189,7 @@
         {
           "key": {
             "pluralName": "Dwarves",
+            "isLayable": true,
             "hp": 10,
             "attack": 5,
             "defense": 4,
@@ -3007,6 +3205,7 @@
         {
           "key": {
             "pluralName": "Top dwarves",
+            "isLayable": true,
             "hp": 13,
             "attack": 7,
             "defense": 6,
@@ -3021,6 +3220,7 @@
         {
           "key": {
             "pluralName": "Young soldiers",
+            "isLayable": true,
             "hp": 16,
             "attack": 10,
             "defense": 9,
@@ -3036,6 +3236,7 @@
         {
           "key": {
             "pluralName": "Soldiers",
+            "isLayable": true,
             "hp": 20,
             "attack": 15,
             "defense": 14,
@@ -3051,6 +3252,7 @@
         {
           "key": {
             "pluralName": "Doorkeepers",
+            "isLayable": true,
             "hp": 30,
             "attack": 1,
             "defense": 25,
@@ -3066,6 +3268,7 @@
         {
           "key": {
             "pluralName": "Top doorkeepers",
+            "isLayable": false,
             "hp": 40,
             "attack": 1,
             "defense": 35,
@@ -3080,6 +3283,7 @@
         {
           "key": {
             "pluralName": "Fire ants",
+            "isLayable": true,
             "hp": 10,
             "attack": 30,
             "defense": 15,
@@ -3095,6 +3299,7 @@
         {
           "key": {
             "pluralName": "Top fire ants",
+            "isLayable": true,
             "hp": 12,
             "attack": 35,
             "defense": 18,
@@ -3109,6 +3314,7 @@
         {
           "key": {
             "pluralName": "Top soldiers",
+            "isLayable": true,
             "hp": 27,
             "attack": 24,
             "defense": 23,
@@ -3123,6 +3329,7 @@
         {
           "key": {
             "pluralName": "Tanks",
+            "isLayable": true,
             "hp": 35,
             "attack": 55,
             "defense": 1,
@@ -3138,6 +3345,7 @@
         {
           "key": {
             "pluralName": "Top tanks",
+            "isLayable": false,
             "hp": 50,
             "attack": 80,
             "defense": 1,
@@ -3152,6 +3360,7 @@
         {
           "key": {
             "pluralName": "Killers",
+            "isLayable": true,
             "hp": 50,
             "attack": 50,
             "defense": 50,
@@ -3167,6 +3376,7 @@
         {
           "key": {
             "pluralName": "Top killers",
+            "isLayable": true,
             "hp": 55,
             "attack": 55,
             "defense": 55,

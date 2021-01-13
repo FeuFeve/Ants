@@ -9,6 +9,7 @@ import java.util.Locale;
 public class Unit extends GameObject {
 
     public String pluralName;
+    public boolean isLayable;
 
     // Base stats
     public int hp;
