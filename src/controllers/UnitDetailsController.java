@@ -4,6 +4,7 @@ import game.main.Config;
 import game.main.GameImage;
 import game.main.GameManager;
 import game.model.Unit;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -34,44 +35,38 @@ public class UnitDetailsController {
 
 
     public void setIsWorker() {
-        this.unit = null;
-
-        unitImage.setImage(GameImage.getWorkerImage());
-
-        hpImageView.setVisible(false);
-        attackImageView.setVisible(false);
-        defenseImageView.setVisible(false);
-        hpLabel.setText("");
-        attackLabel.setText("");
-        defenseLabel.setText("");
-
-        nameLabel.setText("Worker");
-        descriptionLabel.setText(Config.worker.description);
-
-        double duration = Config.worker.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
-        timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
-        foodCostLabel.setText(String.valueOf(Config.worker.foodCost));
-
-        addQueenPageAmountObservable(amountTextField, Config.worker);
+        setUnit(Config.worker);
     }
 
     public void setUnit(Unit unit) {
         this.unit = unit;
 
-        unitImage.setImage(GameImage.getUnitImage(unit));
+        Platform.runLater(() -> {
+            unitImage.setImage(GameImage.getUnitImage(unit));
 
-        hpLabel.setText(String.valueOf(unit.hp));
-        attackLabel.setText(String.valueOf(unit.attack));
-        defenseLabel.setText(String.valueOf(unit.defense));
-        
-        nameLabel.setText(unit.name);
-        descriptionLabel.setText(unit.description);
+            if (unit == Config.worker) {
+                hpImageView.setVisible(false);
+                attackImageView.setVisible(false);
+                defenseImageView.setVisible(false);
+                hpLabel.setText("");
+                attackLabel.setText("");
+                defenseLabel.setText("");
+            }
+            else {
+                hpLabel.setText(String.valueOf(unit.hp));
+                attackLabel.setText(String.valueOf(unit.attack));
+                defenseLabel.setText(String.valueOf(unit.defense));
+            }
 
-        double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
-        timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
-        foodCostLabel.setText(String.valueOf(unit.foodCost));
+            nameLabel.setText(unit.name);
+            descriptionLabel.setText(unit.description);
 
-        addQueenPageAmountObservable(amountTextField, unit);
+            double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
+            timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
+            foodCostLabel.setText(String.valueOf(unit.foodCost));
+
+            addQueenPageAmountObservable(amountTextField, unit);
+        });
     }
 
     private void addQueenPageAmountObservable(TextField textField, Unit unit) {

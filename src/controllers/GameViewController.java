@@ -43,11 +43,7 @@ public class GameViewController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         System.out.print("Initializing GameViewController...");
-
         ControllersManager.gameViewController = this;
-
-//        HBox testHbox = new HBox(unitPlaceholder);
-
         System.out.println(" Done.");
     }
 
@@ -64,6 +60,7 @@ public class GameViewController implements Initializable {
     }
 
     private void initQueenPage() throws IOException {
+        Platform.runLater(() -> unitsDetailsVBox.getChildren().clear());
         queenPage.getContent().setOnScroll(scrollEvent -> Animator.slowScroll(queenPage, scrollEvent));
 
         FXMLLoader loader;
@@ -72,8 +69,7 @@ public class GameViewController implements Initializable {
         UnitDetailsController workerDetailsController = loader.getController();
         workerDetailsController.setIsWorker();
 
-        unitsDetailsVBox.getChildren().clear();
-        unitsDetailsVBox.getChildren().add(workerHBox);
+        Platform.runLater(() -> unitsDetailsVBox.getChildren().add(workerHBox));
 
         for (Unit unit : Config.units) {
             loader = new FXMLLoader(getClass().getResource("../views/unit_details.fxml"));
@@ -83,7 +79,7 @@ public class GameViewController implements Initializable {
             unitDetailsController.setUnit(unit);
             unitHBoxList.add(new Pair<>(unitHBox, unitDetailsController));
 
-            unitsDetailsVBox.getChildren().add(unitHBox);
+            Platform.runLater(() -> unitsDetailsVBox.getChildren().add(unitHBox));
         }
     }
 
