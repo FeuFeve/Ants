@@ -6,6 +6,7 @@ import game.main.GameManager;
 import game.model.Unit;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
@@ -27,9 +28,12 @@ public class UnitDetailsController {
     @FXML Label descriptionLabel;
     @FXML Label requiredLabel;
 
+    @FXML ImageView amountImageView;
     @FXML TextField amountTextField;
     @FXML Label timeLabel;
     @FXML Label foodCostLabel;
+
+    @FXML Button layDownButton;
 
     public Unit unit;
 
@@ -61,11 +65,19 @@ public class UnitDetailsController {
             nameLabel.setText(unit.name);
             descriptionLabel.setText(unit.description);
 
-            double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
-            timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
-            foodCostLabel.setText(String.valueOf(unit.foodCost));
+            if (unit.isLayable) {
+                double duration = unit.layingTime * GameManager.currentPlayer.layingSpeedMultiplier;
+                timeLabel.setText(StringFormatter.numberInSecToDuration(duration));
 
-            addQueenPageAmountObservable(amountTextField, unit);
+                addQueenPageAmountObservable(amountTextField, unit);
+            }
+            else {
+                amountImageView.setVisible(false);
+                amountTextField.setVisible(false);
+                timeLabel.setText("Not layable");
+                layDownButton.setVisible(false);
+            }
+            foodCostLabel.setText(String.valueOf(unit.foodCost));
         });
     }
 
