@@ -5,16 +5,16 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
-<HBox id="unit-details" fx:id="unitPlaceholder" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UnitDetailsController">
+<HBox id="unit-details" fx:id="unitPlaceholder" alignment="CENTER_LEFT" prefHeight="125.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UnitDetailsController">
     <VBox.margin>
         <Insets bottom="5.0" top="5.0" />
     </VBox.margin>
     <children>
-        <ImageView fx:id="unitImage" fitHeight="120.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="unitImage" fitHeight="125.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/missing.png" />
          </image></ImageView>
-        <VBox alignment="CENTER_LEFT" prefWidth="50.0">
+        <VBox alignment="CENTER_LEFT" prefWidth="55.0">
             <children>
             <HBox VBox.vgrow="NEVER">
                <children>
@@ -70,12 +70,12 @@
                         <Font name="Linux Biolinum G Bold" size="28.0" />
                     </font>
                 </Label>
-                <Label fx:id="descriptionLabel" text="Description">
+                <Label fx:id="descriptionLabel" alignment="TOP_LEFT" maxHeight="60.0" minHeight="45.0" text="Description" wrapText="true">
                     <VBox.margin>
                         <Insets bottom="5.0" top="5.0" />
                     </VBox.margin>
                 </Label>
-                <Label fx:id="requiredLabel" text="Required" />
+                <Label fx:id="requiredLabel" text="Requirements:" />
             </children>
          <HBox.margin>
             <Insets left="5.0" right="5.0" />
